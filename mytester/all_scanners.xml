@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="transform_scanner_xml.xsl"?>
+
+<scanners>
+    <scanner id="1" label="wapiti" version="2_2_1" ready="yes">
+	<name>wapiti 2.2.1</name>
+    </scanner>
+    <scanner id="2" label="skipfish" version="1_81b" ready="yes">
+	<name>skipfish 1.81b</name>
+    </scanner>
+    <scanner id="3" label="skipfish" version="2_03b" ready="no">
+	<name>skipfish 2.03b</name>
+    </scanner>
+    <scanner id="4" label="sqlmap" version="0_8" ready="yes">
+	<name>sqlmap 0.8</name>
+    </scanner>
+    <scanner id="5" label="sqlmap" version="0_9" ready="yes">
+	<name>sqlmap 0.9</name>
+    </scanner>
+    <scanner id="6" label="sqlmap" version="r4365" ready="no">
+	<name>sqlmap 4365 release</name>
+    </scanner>
+    <scanner id="7" label="sqlmap" version="dev" ready="no">
+	<name>sqlmap developer version</name>
+    </scanner>
+    <scanner id="8" label="bsqlbf" version="2_6" ready="no">
+	<name>bsqlbf v.2-6</name>
+    </scanner>
+    <scanner id="9" label="w3af" version="1_0_rc5" ready="yes">
+	<name>w3af 1.0 rc5</name>
+    </scanner>
+    <scanner id="10" label="w3af" version="1_0_stable" ready="no">
+	<name>w3af 1.0 stable</name>
+    </scanner>
+    <scanner id="11" label="w3af" version="1_1" ready="yes">
+	<name>w3af 1.1</name>
+    </scanner>
+    <scanner id="12" label="arachni" version="0_3" ready="no">
+	<name>arachni 0.3</name>
+    </scanner>
+</scanners>

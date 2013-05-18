@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/core/data/searchEngines/tests
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/core/data/searchEngines/tests/__init__.py
+END
+test_googleSearchEngine.py
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/core/data/searchEngines/tests/test_googleSearchEngine.py
+END

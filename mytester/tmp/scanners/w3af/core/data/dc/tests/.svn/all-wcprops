@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/core/data/dc/tests
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/core/data/dc/tests/__init__.py
+END
+test_form.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/core/data/dc/tests/test_form.py
+END

@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/discovery/oHmap
+END
+HIDING_GUIDE
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/discovery/oHmap/HIDING_GUIDE
+END
+BUGS
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/discovery/oHmap/BUGS
+END
+GPL
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/discovery/oHmap/GPL
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/discovery/oHmap/__init__.py
+END
+FAQS
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/discovery/oHmap/FAQS
+END
+hmap.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/discovery/oHmap/hmap.py
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/discovery/oHmap/README
+END
+KNOWN_TESTS
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/discovery/oHmap/KNOWN_TESTS
+END

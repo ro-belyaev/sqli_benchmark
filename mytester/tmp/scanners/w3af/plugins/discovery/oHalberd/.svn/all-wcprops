@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/discovery/oHalberd
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/discovery/oHalberd/LICENSE
+END
+AUTHORS
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/discovery/oHalberd/AUTHORS
+END
+INSTALL
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/discovery/oHalberd/INSTALL
+END
+ChangeLog
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/discovery/oHalberd/ChangeLog
+END
+GNUmakefile
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/discovery/oHalberd/GNUmakefile
+END
+setup.py
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/discovery/oHalberd/setup.py
+END
+THANKS
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/discovery/oHalberd/THANKS
+END
+PKG-INFO
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/discovery/oHalberd/PKG-INFO
+END
+NEWS
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/discovery/oHalberd/NEWS
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/discovery/oHalberd/README
+END

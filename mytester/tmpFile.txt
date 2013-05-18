@@ -1,0 +1,360 @@
+
+before exec
+after exec
+after prepare tmp
+before fork
+after fork
+after fork
+before run1test_
+before pcntl_exec
+before tester test()
+before scanner prepare
+before exec
+after exec
+before test prepare
+before scanner run
+before exec
+after exec
+after scanner run
+before exec
+after exec
+after scanner clean
+after tester test()
+end of run1test
+end of run1test.php
+UPDATE scanners_launch SET num_of_tests=1+(SELECT num_of_tests FROM (SELECT num_of_tests FROM scanners_launch WHERE launch_id='77' AND scanner_id='1') AS tbl ) WHERE launch_id='77' AND scanner_id='1'UPDATE scanners_launch SET state=CASE (SELECT num_of_tests FROM (SELECT num_of_tests FROM scanners_launch WHERE scanner_id='1' AND launch_id='77') AS tbl) WHEN (SELECT num_of_tests FROM (SELECT gen.num_of_tests FROM scanners_launch sc INNER JOIN mytester mt USING (launch_id) INNER JOIN generation gen ON (mt.generation_id = gen.id) WHERE sc.scanner_id='1' AND sc.launch_id='77') as some_tbl) THEN 1 ELSE state END WHERE scanner_id='1' AND launch_id='77'before fork
+after fork
+after fork
+before run1test_
+before pcntl_exec
+before tester test()
+before scanner prepare
+before mkdir
+after mkdir
+after cmd decl
+after echo
+before exec
+after exec
+after ex in prepare
+before test prepare
+before scanner run
+before exec
+after exec
+after scanner run
+before exec
+after exec
+after scanner clean
+after tester test()
+end of run1test
+end of run1test.php
+UPDATE scanners_launch SET num_of_tests=1+(SELECT num_of_tests FROM (SELECT num_of_tests FROM scanners_launch WHERE launch_id='77' AND scanner_id='2') AS tbl ) WHERE launch_id='77' AND scanner_id='2'UPDATE scanners_launch SET state=CASE (SELECT num_of_tests FROM (SELECT num_of_tests FROM scanners_launch WHERE scanner_id='2' AND launch_id='77') AS tbl) WHEN (SELECT num_of_tests FROM (SELECT gen.num_of_tests FROM scanners_launch sc INNER JOIN mytester mt USING (launch_id) INNER JOIN generation gen ON (mt.generation_id = gen.id) WHERE sc.scanner_id='2' AND sc.launch_id='77') as some_tbl) THEN 1 ELSE state END WHERE scanner_id='2' AND launch_id='77'before fork
+after fork
+after fork
+before run1test_
+before pcntl_exec
+before tester test()
+before scanner prepare
+before test prepare
+before scanner run
+after scanner run
+after scanner clean
+after tester test()
+end of run1test
+end of run1test.php
+UPDATE scanners_launch SET num_of_tests=1+(SELECT num_of_tests FROM (SELECT num_of_tests FROM scanners_launch WHERE launch_id='77' AND scanner_id='0') AS tbl ) WHERE launch_id='77' AND scanner_id='0'UPDATE scanners_launch SET state=CASE (SELECT num_of_tests FROM (SELECT num_of_tests FROM scanners_launch WHERE scanner_id='0' AND launch_id='77') AS tbl) WHEN (SELECT num_of_tests FROM (SELECT gen.num_of_tests FROM scanners_launch sc INNER JOIN mytester mt USING (launch_id) INNER JOIN generation gen ON (mt.generation_id = gen.id) WHERE sc.scanner_id='0' AND sc.launch_id='77') as some_tbl) THEN 1 ELSE state END WHERE scanner_id='0' AND launch_id='77'
+!!! END !!!
+before exec
+after exec
+after prepare tmp
+before fork
+after fork
+after fork
+before run1test_
+before pcntl_exec
+before tester test()
+before scanner prepare
+before exec
+after exec
+before test prepare
+before scanner run
+before exec
+after exec
+after scanner run
+before exec
+after exec
+after scanner clean
+after tester test()
+end of run1test
+end of run1test.php
+UPDATE scanners_launch SET num_of_tests=1+(SELECT num_of_tests FROM (SELECT num_of_tests FROM scanners_launch WHERE launch_id='1' AND scanner_id='1') AS tbl ) WHERE launch_id='1' AND scanner_id='1'UPDATE scanners_launch SET state=CASE (SELECT num_of_tests FROM (SELECT num_of_tests FROM scanners_launch WHERE scanner_id='1' AND launch_id='1') AS tbl) WHEN (SELECT num_of_tests FROM (SELECT gen.num_of_tests FROM scanners_launch sc INNER JOIN mytester mt USING (launch_id) INNER JOIN generation gen ON (mt.generation_id = gen.id) WHERE sc.scanner_id='1' AND sc.launch_id='1') as some_tbl) THEN 1 ELSE state END WHERE scanner_id='1' AND launch_id='1'before fork
+after fork
+after fork
+before run1test_
+before pcntl_exec
+before tester test()
+before scanner prepare
+before mkdir
+after mkdir
+after cmd decl
+after echo
+before exec
+after exec
+after ex in prepare
+before test prepare
+before scanner run
+before exec
+after exec
+after scanner run
+before exec
+after exec
+after scanner clean
+after tester test()
+end of run1test
+end of run1test.php
+UPDATE scanners_launch SET num_of_tests=1+(SELECT num_of_tests FROM (SELECT num_of_tests FROM scanners_launch WHERE launch_id='1' AND scanner_id='2') AS tbl ) WHERE launch_id='1' AND scanner_id='2'UPDATE scanners_launch SET state=CASE (SELECT num_of_tests FROM (SELECT num_of_tests FROM scanners_launch WHERE scanner_id='2' AND launch_id='1') AS tbl) WHEN (SELECT num_of_tests FROM (SELECT gen.num_of_tests FROM scanners_launch sc INNER JOIN mytester mt USING (launch_id) INNER JOIN generation gen ON (mt.generation_id = gen.id) WHERE sc.scanner_id='2' AND sc.launch_id='1') as some_tbl) THEN 1 ELSE state END WHERE scanner_id='2' AND launch_id='1'before fork
+after fork
+after fork
+before run1test_
+before pcntl_exec
+before tester test()
+before scanner prepare
+before test prepare
+before scanner run
+after scanner run
+after scanner clean
+after tester test()
+end of run1test
+end of run1test.php
+UPDATE scanners_launch SET num_of_tests=1+(SELECT num_of_tests FROM (SELECT num_of_tests FROM scanners_launch WHERE launch_id='1' AND scanner_id='0') AS tbl ) WHERE launch_id='1' AND scanner_id='0'UPDATE scanners_launch SET state=CASE (SELECT num_of_tests FROM (SELECT num_of_tests FROM scanners_launch WHERE scanner_id='0' AND launch_id='1') AS tbl) WHEN (SELECT num_of_tests FROM (SELECT gen.num_of_tests FROM scanners_launch sc INNER JOIN mytester mt USING (launch_id) INNER JOIN generation gen ON (mt.generation_id = gen.id) WHERE sc.scanner_id='0' AND sc.launch_id='1') as some_tbl) THEN 1 ELSE state END WHERE scanner_id='0' AND launch_id='1'
+!!! END !!!
+before exec
+after exec
+after prepare tmp
+before fork
+after fork
+after fork
+before run1test_
+before pcntl_exec
+before tester test()
+before scanner prepare
+before exec
+after exec
+before test prepare
+before scanner run
+before exec
+after exec
+after scanner run
+before exec
+after exec
+after scanner clean
+after tester test()
+end of run1test
+end of run1test.php
+UPDATE scanners_launch SET num_of_tests=1+(SELECT num_of_tests FROM (SELECT num_of_tests FROM scanners_launch WHERE launch_id='2' AND scanner_id='1') AS tbl ) WHERE launch_id='2' AND scanner_id='1'UPDATE scanners_launch SET state=CASE (SELECT num_of_tests FROM (SELECT num_of_tests FROM scanners_launch WHERE scanner_id='1' AND launch_id='2') AS tbl) WHEN (SELECT num_of_tests FROM (SELECT gen.num_of_tests FROM scanners_launch sc INNER JOIN mytester mt USING (launch_id) INNER JOIN generation gen ON (mt.generation_id = gen.id) WHERE sc.scanner_id='1' AND sc.launch_id='2') as some_tbl) THEN 1 ELSE state END WHERE scanner_id='1' AND launch_id='2'before fork
+after fork
+after fork
+before run1test_
+before pcntl_exec
+before tester test()
+before scanner prepare
+before test prepare
+before scanner run
+after scanner run
+after scanner clean
+after tester test()
+end of run1test
+end of run1test.php
+UPDATE scanners_launch SET num_of_tests=1+(SELECT num_of_tests FROM (SELECT num_of_tests FROM scanners_launch WHERE launch_id='2' AND scanner_id='0') AS tbl ) WHERE launch_id='2' AND scanner_id='0'UPDATE scanners_launch SET state=CASE (SELECT num_of_tests FROM (SELECT num_of_tests FROM scanners_launch WHERE scanner_id='0' AND launch_id='2') AS tbl) WHEN (SELECT num_of_tests FROM (SELECT gen.num_of_tests FROM scanners_launch sc INNER JOIN mytester mt USING (launch_id) INNER JOIN generation gen ON (mt.generation_id = gen.id) WHERE sc.scanner_id='0' AND sc.launch_id='2') as some_tbl) THEN 1 ELSE state END WHERE scanner_id='0' AND launch_id='2'
+!!! END !!!
+before exec
+after exec
+after prepare tmp
+before fork
+after fork
+after fork
+before run1test_
+before pcntl_exec
+before tester test()
+before scanner prepare
+before exec
+after exec
+before test prepare
+before scanner run
+before exec
+after exec
+after scanner run
+before exec
+after exec
+after scanner clean
+after tester test()
+end of run1test
+end of run1test.php
+UPDATE scanners_launch SET num_of_tests=1+(SELECT num_of_tests FROM (SELECT num_of_tests FROM scanners_launch WHERE launch_id='3' AND scanner_id='1') AS tbl ) WHERE launch_id='3' AND scanner_id='1'UPDATE scanners_launch SET state=CASE (SELECT num_of_tests FROM (SELECT num_of_tests FROM scanners_launch WHERE scanner_id='1' AND launch_id='3') AS tbl) WHEN (SELECT num_of_tests FROM (SELECT gen.num_of_tests FROM scanners_launch sc INNER JOIN mytester mt USING (launch_id) INNER JOIN generation gen ON (mt.generation_id = gen.id) WHERE sc.scanner_id='1' AND sc.launch_id='3') as some_tbl) THEN 1 ELSE state END WHERE scanner_id='1' AND launch_id='3'before fork
+after fork
+after fork
+before run1test_
+before pcntl_exec
+before tester test()
+before scanner prepare
+before mkdir
+after mkdir
+after cmd decl
+after echo
+before exec
+after exec
+after ex in prepare
+before test prepare
+before scanner run
+before exec
+after exec
+after scanner run
+before exec
+after exec
+after scanner clean
+after tester test()
+end of run1test
+end of run1test.php
+UPDATE scanners_launch SET num_of_tests=1+(SELECT num_of_tests FROM (SELECT num_of_tests FROM scanners_launch WHERE launch_id='3' AND scanner_id='2') AS tbl ) WHERE launch_id='3' AND scanner_id='2'UPDATE scanners_launch SET state=CASE (SELECT num_of_tests FROM (SELECT num_of_tests FROM scanners_launch WHERE scanner_id='2' AND launch_id='3') AS tbl) WHEN (SELECT num_of_tests FROM (SELECT gen.num_of_tests FROM scanners_launch sc INNER JOIN mytester mt USING (launch_id) INNER JOIN generation gen ON (mt.generation_id = gen.id) WHERE sc.scanner_id='2' AND sc.launch_id='3') as some_tbl) THEN 1 ELSE state END WHERE scanner_id='2' AND launch_id='3'before fork
+after fork
+after fork
+before run1test_
+before pcntl_exec
+before tester test()
+before scanner prepare
+before test prepare
+before scanner run
+after scanner run
+after scanner clean
+after tester test()
+end of run1test
+end of run1test.php
+UPDATE scanners_launch SET num_of_tests=1+(SELECT num_of_tests FROM (SELECT num_of_tests FROM scanners_launch WHERE launch_id='3' AND scanner_id='0') AS tbl ) WHERE launch_id='3' AND scanner_id='0'UPDATE scanners_launch SET state=CASE (SELECT num_of_tests FROM (SELECT num_of_tests FROM scanners_launch WHERE scanner_id='0' AND launch_id='3') AS tbl) WHEN (SELECT num_of_tests FROM (SELECT gen.num_of_tests FROM scanners_launch sc INNER JOIN mytester mt USING (launch_id) INNER JOIN generation gen ON (mt.generation_id = gen.id) WHERE sc.scanner_id='0' AND sc.launch_id='3') as some_tbl) THEN 1 ELSE state END WHERE scanner_id='0' AND launch_id='3'
+!!! END !!!
+before exec
+after exec
+after prepare tmp
+before fork
+after fork
+after fork
+before run1test_
+before pcntl_exec
+before tester test()
+before scanner prepare
+before exec
+after exec
+before test prepare
+before scanner run
+before exec
+after exec
+after scanner run
+before exec
+after exec
+after scanner clean
+after tester test()
+end of run1test
+end of run1test.php
+UPDATE scanners_launch SET num_of_tests=1+(SELECT num_of_tests FROM (SELECT num_of_tests FROM scanners_launch WHERE launch_id='4' AND scanner_id='1') AS tbl ) WHERE launch_id='4' AND scanner_id='1'UPDATE scanners_launch SET state=CASE (SELECT num_of_tests FROM (SELECT num_of_tests FROM scanners_launch WHERE scanner_id='1' AND launch_id='4') AS tbl) WHEN (SELECT num_of_tests FROM (SELECT gen.num_of_tests FROM scanners_launch sc INNER JOIN mytester mt USING (launch_id) INNER JOIN generation gen ON (mt.generation_id = gen.id) WHERE sc.scanner_id='1' AND sc.launch_id='4') as some_tbl) THEN 1 ELSE state END WHERE scanner_id='1' AND launch_id='4'before fork
+after fork
+after fork
+before run1test_
+before pcntl_exec
+before tester test()
+before scanner prepare
+before mkdir
+after mkdir
+after cmd decl
+after echo
+before exec
+after exec
+after ex in prepare
+before test prepare
+before scanner run
+before exec
+after exec
+after scanner run
+before exec
+after exec
+after scanner clean
+after tester test()
+end of run1test
+end of run1test.php
+UPDATE scanners_launch SET num_of_tests=1+(SELECT num_of_tests FROM (SELECT num_of_tests FROM scanners_launch WHERE launch_id='4' AND scanner_id='2') AS tbl ) WHERE launch_id='4' AND scanner_id='2'UPDATE scanners_launch SET state=CASE (SELECT num_of_tests FROM (SELECT num_of_tests FROM scanners_launch WHERE scanner_id='2' AND launch_id='4') AS tbl) WHEN (SELECT num_of_tests FROM (SELECT gen.num_of_tests FROM scanners_launch sc INNER JOIN mytester mt USING (launch_id) INNER JOIN generation gen ON (mt.generation_id = gen.id) WHERE sc.scanner_id='2' AND sc.launch_id='4') as some_tbl) THEN 1 ELSE state END WHERE scanner_id='2' AND launch_id='4'before fork
+after fork
+after fork
+before run1test_
+before pcntl_exec
+before tester test()
+before scanner prepare
+before test prepare
+before scanner run
+after scanner run
+after scanner clean
+after tester test()
+end of run1test
+end of run1test.php
+UPDATE scanners_launch SET num_of_tests=1+(SELECT num_of_tests FROM (SELECT num_of_tests FROM scanners_launch WHERE launch_id='4' AND scanner_id='0') AS tbl ) WHERE launch_id='4' AND scanner_id='0'UPDATE scanners_launch SET state=CASE (SELECT num_of_tests FROM (SELECT num_of_tests FROM scanners_launch WHERE scanner_id='0' AND launch_id='4') AS tbl) WHEN (SELECT num_of_tests FROM (SELECT gen.num_of_tests FROM scanners_launch sc INNER JOIN mytester mt USING (launch_id) INNER JOIN generation gen ON (mt.generation_id = gen.id) WHERE sc.scanner_id='0' AND sc.launch_id='4') as some_tbl) THEN 1 ELSE state END WHERE scanner_id='0' AND launch_id='4'
+!!! END !!!
+before exec
+after exec
+after prepare tmp
+before fork
+after fork
+after fork
+before run1test_
+before pcntl_exec
+before tester test()
+before scanner prepare
+before exec
+after exec
+before test prepare
+before scanner run
+before exec
+after exec
+after scanner run
+before exec
+after exec
+after scanner clean
+after tester test()
+end of run1test
+end of run1test.php
+UPDATE scanners_launch SET num_of_tests=1+(SELECT num_of_tests FROM (SELECT num_of_tests FROM scanners_launch WHERE launch_id='5' AND scanner_id='1') AS tbl ) WHERE launch_id='5' AND scanner_id='1'UPDATE scanners_launch SET state=CASE (SELECT num_of_tests FROM (SELECT num_of_tests FROM scanners_launch WHERE scanner_id='1' AND launch_id='5') AS tbl) WHEN (SELECT num_of_tests FROM (SELECT gen.num_of_tests FROM scanners_launch sc INNER JOIN mytester mt USING (launch_id) INNER JOIN generation gen ON (mt.generation_id = gen.id) WHERE sc.scanner_id='1' AND sc.launch_id='5') as some_tbl) THEN 1 ELSE state END WHERE scanner_id='1' AND launch_id='5'before fork
+after fork
+after fork
+before run1test_
+before pcntl_exec
+before tester test()
+before scanner prepare
+before mkdir
+after mkdir
+after cmd decl
+after echo
+before exec
+after exec
+after ex in prepare
+before test prepare
+before scanner run
+before exec
+after exec
+after scanner run
+before exec
+after exec
+after scanner clean
+after tester test()
+end of run1test
+end of run1test.php
+UPDATE scanners_launch SET num_of_tests=1+(SELECT num_of_tests FROM (SELECT num_of_tests FROM scanners_launch WHERE launch_id='5' AND scanner_id='2') AS tbl ) WHERE launch_id='5' AND scanner_id='2'UPDATE scanners_launch SET state=CASE (SELECT num_of_tests FROM (SELECT num_of_tests FROM scanners_launch WHERE scanner_id='2' AND launch_id='5') AS tbl) WHEN (SELECT num_of_tests FROM (SELECT gen.num_of_tests FROM scanners_launch sc INNER JOIN mytester mt USING (launch_id) INNER JOIN generation gen ON (mt.generation_id = gen.id) WHERE sc.scanner_id='2' AND sc.launch_id='5') as some_tbl) THEN 1 ELSE state END WHERE scanner_id='2' AND launch_id='5'before fork
+after fork
+after fork
+before run1test_
+before pcntl_exec
+before tester test()
+before scanner prepare
+before test prepare
+before scanner run
+after scanner run
+after scanner clean
+after tester test()
+end of run1test
+end of run1test.php
+UPDATE scanners_launch SET num_of_tests=1+(SELECT num_of_tests FROM (SELECT num_of_tests FROM scanners_launch WHERE launch_id='5' AND scanner_id='0') AS tbl ) WHERE launch_id='5' AND scanner_id='0'UPDATE scanners_launch SET state=CASE (SELECT num_of_tests FROM (SELECT num_of_tests FROM scanners_launch WHERE scanner_id='0' AND launch_id='5') AS tbl) WHEN (SELECT num_of_tests FROM (SELECT gen.num_of_tests FROM scanners_launch sc INNER JOIN mytester mt USING (launch_id) INNER JOIN generation gen ON (mt.generation_id = gen.id) WHERE sc.scanner_id='0' AND sc.launch_id='5') as some_tbl) THEN 1 ELSE state END WHERE scanner_id='0' AND launch_id='5'
+!!! END !!!

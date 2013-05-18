@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <root>
+        <rootURL>
+            http://www.google.com/
+        </rootURL>
+        <toBrowse/>
+        <browsed>
+            <url_data uri="http://www.google.com/">
+                <header name="status" value="302"/>
+                <header name="content-length" value="218"/>
+                <header name="x-xss-protection" value="1; mode=block"/>
+                <header name="set-cookie" value="PREF=ID=e154b12e8f6482f3:FF=0:TM=1299186512:LM=1299186512:S=qTRrFmfjoXpx1h2_; expires=Sat, 02-Mar-2013 21:08:32 GMT; path=/; domain=.google.com, NID=44=ZNVfcbb6GFwAuXb8UwnKKxSe4P6xiJ5RduRSaWSnKbrSif7B9_ITSIPAzDcyqpgwEqOG2TagQHW4ijSsoeqYLqFcZlL394MUcjuc1irl4sso1BD-r_eriQ5UgsY5ALo9; expires=Fri, 02-Sep-2011 21:08:32 GMT; path=/; domain=.google.com; HttpOnly"/>
+                <header name="server" value="gws"/>
+                <header name="location" value="http://www.google.ru/"/>
+                <header name="cache-control" value="private"/>
+                <header name="date" value="Thu, 03 Mar 2011 21:08:32 GMT"/>
+                <header name="content-type" value="text/html; charset=UTF-8"/>
+                <header name="link_encoding" value=""/>
+            </url_data>
+        </browsed>
+        <forms/>
+        <uploads/>
+    </root>

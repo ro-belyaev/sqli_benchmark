@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/core/data/parsers
+END
+documentParser.py
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/core/data/parsers/documentParser.py
+END
+swfParser.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/core/data/parsers/swfParser.py
+END
+wmlParser.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/core/data/parsers/wmlParser.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/core/data/parsers/__init__.py
+END
+sgmlParser.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/core/data/parsers/sgmlParser.py
+END
+urlParser.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/core/data/parsers/urlParser.py
+END
+abstractParser.py
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/core/data/parsers/abstractParser.py
+END
+encode_decode.py
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/core/data/parsers/encode_decode.py
+END
+htmlParser.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/core/data/parsers/htmlParser.py
+END
+httpRequestParser.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/core/data/parsers/httpRequestParser.py
+END
+xmlrpc.py
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/core/data/parsers/xmlrpc.py
+END
+pdfParser.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/core/data/parsers/pdfParser.py
+END
+wsdlParser.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/core/data/parsers/wsdlParser.py
+END
+dpCache.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/core/data/parsers/dpCache.py
+END

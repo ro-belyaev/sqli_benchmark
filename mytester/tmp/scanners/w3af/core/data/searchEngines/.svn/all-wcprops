@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/core/data/searchEngines
+END
+googleSearchEngine.py
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/core/data/searchEngines/googleSearchEngine.py
+END
+searchEngine.py
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/core/data/searchEngines/searchEngine.py
+END
+pks.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/core/data/searchEngines/pks.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/core/data/searchEngines/__init__.py
+END
+bing.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/core/data/searchEngines/bing.py
+END
+yahooSiteExplorer.py
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/core/data/searchEngines/yahooSiteExplorer.py
+END

@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/core/ui/consoleUi
+END
+progress_bar.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/core/ui/consoleUi/progress_bar.py
+END
+help.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/core/ui/consoleUi/help.py
+END
+exitMessages.txt
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/core/ui/consoleUi/exitMessages.txt
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/core/ui/consoleUi/__init__.py
+END
+help.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/core/ui/consoleUi/help.xml
+END
+consoleUi.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/core/ui/consoleUi/consoleUi.py
+END
+history.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/core/ui/consoleUi/history.py
+END
+menu.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/core/ui/consoleUi/menu.py
+END
+config.py
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/core/ui/consoleUi/config.py
+END
+rootMenu.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/core/ui/consoleUi/rootMenu.py
+END
+tables.py
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/core/ui/consoleUi/tables.py
+END
+util.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/core/ui/consoleUi/util.py
+END
+plugins.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/core/ui/consoleUi/plugins.py
+END
+kbMenu.py
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/core/ui/consoleUi/kbMenu.py
+END
+callbackMenu.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/core/ui/consoleUi/callbackMenu.py
+END
+profiles.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/core/ui/consoleUi/profiles.py
+END
+session.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/core/ui/consoleUi/session.py
+END
+exploit.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/core/ui/consoleUi/exploit.py
+END

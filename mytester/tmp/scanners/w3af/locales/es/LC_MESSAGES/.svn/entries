@@ -1,0 +1,53 @@
+8
+
+dir
+3968
+https://w3af.svn.sourceforge.net/svnroot/w3af/tags/1.0-rc5/locales/es/LC_MESSAGES
+https://w3af.svn.sourceforge.net/svnroot/w3af
+
+
+
+2009-01-30T19:25:55.173510Z
+2499
+andresriancho
+has-props
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+16c29cf1-982c-0410-8ff8-8bb040e68b5b
+
+w3af.mo
+file
+
+
+
+
+2011-01-18T17:38:22.000000Z
+22ae77ef4da8a2f2495caafc52a70b9d
+2008-10-09T14:20:13.898170Z
+1852
+andresriancho
+has-props
+
+w3af.po
+file
+
+
+
+
+2011-01-18T17:38:22.000000Z
+1e124b24bdfffd04a11e7578beb992b9
+2008-10-09T14:20:13.898170Z
+1852
+andresriancho
+

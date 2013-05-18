@@ -1,0 +1,80 @@
+8
+
+dir
+3968
+https://w3af.svn.sourceforge.net/svnroot/w3af/tags/1.0-rc5/core/data/db
+https://w3af.svn.sourceforge.net/svnroot/w3af
+
+
+
+2010-11-30T18:02:53.241034Z
+3809
+andresriancho
+has-props
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+16c29cf1-982c-0410-8ff8-8bb040e68b5b
+
+tests
+dir
+
+temp_persist.py
+file
+
+
+
+
+2011-01-18T17:38:25.000000Z
+f734d2af25385ff885b971797e87dc14
+2010-11-26T19:11:09.451123Z
+3787
+andresriancho
+
+__init__.py
+file
+
+
+
+
+2011-01-18T17:38:25.000000Z
+d41d8cd98f00b204e9800998ecf8427e
+2008-03-17T01:47:40.859403Z
+844
+andresriancho
+
+history.py
+file
+
+
+
+
+2011-01-18T17:38:25.000000Z
+d80536aa2e5d83229038a6d6e163d911
+2010-11-30T16:55:30.387110Z
+3805
+oxdef
+has-props
+
+db.py
+file
+
+
+
+
+2011-01-18T17:38:25.000000Z
+9a11ff21e9d1544e426e8f6e54ea055e
+2010-11-25T15:40:00.558980Z
+3780
+oxdef
+

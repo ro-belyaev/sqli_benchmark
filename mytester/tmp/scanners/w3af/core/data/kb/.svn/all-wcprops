@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/core/data/kb
+END
+knowledgeBase.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/core/data/kb/knowledgeBase.py
+END
+exec_shell.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/core/data/kb/exec_shell.py
+END
+info.py
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/core/data/kb/info.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/core/data/kb/__init__.py
+END
+proxy.py
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/core/data/kb/proxy.py
+END
+read_shell.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/core/data/kb/read_shell.py
+END
+exploitResult.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/core/data/kb/exploitResult.py
+END
+vuln.py
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/core/data/kb/vuln.py
+END
+config.py
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/core/data/kb/config.py
+END
+shell.py
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/core/data/kb/shell.py
+END

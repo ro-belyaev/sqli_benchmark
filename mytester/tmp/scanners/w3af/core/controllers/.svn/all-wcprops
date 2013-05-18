@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svnroot/w3af/!svn/ver/3968/tags/1.0-rc5/core/controllers
+END
+w3afCore.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/core/controllers/w3afCore.py
+END
+outputManager.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/core/controllers/outputManager.py
+END
+miscSettings.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/core/controllers/miscSettings.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/core/controllers/__init__.py
+END
+w3afException.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/core/controllers/w3afException.py
+END
+configurable.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/core/controllers/configurable.py
+END
+targetSettings.py
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/core/controllers/targetSettings.py
+END

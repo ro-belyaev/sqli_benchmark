@@ -1,0 +1,173 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/audit
+END
+preg_replace.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/audit/preg_replace.py
+END
+LDAPi.py
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/audit/LDAPi.py
+END
+phishingVector.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/audit/phishingVector.py
+END
+responseSplitting.py
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/audit/responseSplitting.py
+END
+localFileInclude.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/audit/localFileInclude.py
+END
+ssi.py
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/audit/ssi.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/audit/__init__.py
+END
+remoteFileInclude.py
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/audit/remoteFileInclude.py
+END
+sslCertificate.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/audit/sslCertificate.py
+END
+unSSL.py
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/audit/unSSL.py
+END
+buffOverflow.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/audit/buffOverflow.py
+END
+sqli.py
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/audit/sqli.py
+END
+dav.py
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/audit/dav.py
+END
+generic.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/audit/generic.py
+END
+redos.py
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/audit/redos.py
+END
+xss.py
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/audit/xss.py
+END
+osCommanding.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/audit/osCommanding.py
+END
+xst.py
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/audit/xst.py
+END
+formatString.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/audit/formatString.py
+END
+htaccessMethods.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/audit/htaccessMethods.py
+END
+blindSqli.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/audit/blindSqli.py
+END
+globalRedirect.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/audit/globalRedirect.py
+END
+xsrf.py
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/audit/xsrf.py
+END
+fileUpload.py
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/audit/fileUpload.py
+END
+xpath.py
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/audit/xpath.py
+END
+frontpage.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/audit/frontpage.py
+END
+mxInjection.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/audit/mxInjection.py
+END
+eval.py
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/audit/eval.py
+END

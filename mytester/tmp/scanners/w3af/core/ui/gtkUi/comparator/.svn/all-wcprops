@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/core/ui/gtkUi/comparator
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/core/ui/gtkUi/comparator/__init__.py
+END
+test.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/core/ui/gtkUi/comparator/test.py
+END
+example1.txt
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/core/ui/gtkUi/comparator/example1.txt
+END
+example2.txt
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/core/ui/gtkUi/comparator/example2.txt
+END
+readme.txt
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/core/ui/gtkUi/comparator/readme.txt
+END
+diffutil.py
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/core/ui/gtkUi/comparator/diffutil.py
+END
+comparator.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/core/ui/gtkUi/comparator/comparator.py
+END

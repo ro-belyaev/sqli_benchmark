@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/core/data/bloomfilter
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/core/data/bloomfilter/__init__.py
+END
+test_pybloom.py
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/core/data/bloomfilter/test_pybloom.py
+END
+pybloom.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/core/data/bloomfilter/pybloom.py
+END

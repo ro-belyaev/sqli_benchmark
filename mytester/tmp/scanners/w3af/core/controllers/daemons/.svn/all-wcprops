@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/core/controllers/daemons
+END
+localproxy.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/core/controllers/daemons/localproxy.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/core/controllers/daemons/__init__.py
+END
+proxy.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/core/controllers/daemons/proxy.py
+END
+webserver.py
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/core/controllers/daemons/webserver.py
+END
+mitm.crt
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/core/controllers/daemons/mitm.crt
+END

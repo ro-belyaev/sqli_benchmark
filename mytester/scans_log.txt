@@ -1,0 +1,19 @@
+
+touch tmp/tmp && rm -Rf tmp/* && mkdir tmp/scanners && cp -R ../scanners/* tmp/scanners/ 2>&1 && echo ok
+Run Scanner_wapiti_2_2_1 on new Test(new Uconf(true, false), new ZeroFilter(), new Field('`', false, 0, '', ''), new TableOutput(), new SimpleTemplate(), "1.log")..
+cd tmp/s_Scanner_wapiti_2_2_1_9552334476954;  python ./wapiti.py 'http://localhost/generation/mytests/tests/1/' -s 'http://localhost/generation/mytests/tests/1/1.php?info=name' --scope folder  -m '-all,sql,blindsql' 2>&1 || echo mybencherr
+Traceback (most recent call last):
+  File "./wapiti.py", line 32, in <module>
+    lan.configure()
+  File "/var/www/generation/mytester/tmp/s_Scanner_wapiti_2_2_1_9552334476954/language/language.py", line 54, in configure
+    lang       = langCounty[:2] #en
+TypeError: 'NoneType' object is unsubscriptable
+mybencherr
+Run Scanner_skipfish_1_81b on new Test(new Uconf(true, false), new ZeroFilter(), new Field('`', false, 0, '', ''), new TableOutput(), new SimpleTemplate(), "1.log")..
+cd tmp/s_Scanner_skipfish_1_81b_50269675620242; ./skipfish -o o13 -g 1 -t 60 -w 60 -i 60  -Y -L -V  -u -W dictionaries/empty.wl -I 'http://localhost/generation/mytests/tests/1/1.php?info' 'http://localhost/generation/mytests/tests/1/1.php?info=name' 2>&1 || echo mybencherr
+[1;31m[-]  SYSTEM ERROR : [1;37mUnable to create 'o13'.[1;31m
+    Stop location : [0;37mmain(), skipfish.c:427
+[1;31m       OS message [0;37m: File exists
+[0mskipfish version 1.81b by <lcamtuf@google.com>
+mybencherr
+Run ZeroScanner on new Test(new Uconf(true, false), new ZeroFilter(), new Field('`', false, 0, '', ''), new TableOutput(), new SimpleTemplate(), "1.log")..

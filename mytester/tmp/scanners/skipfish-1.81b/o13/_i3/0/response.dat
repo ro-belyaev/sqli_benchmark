@@ -1,0 +1,19 @@
+HTTP/1.1 200 Partial Content
+Date: Fri, 17 May 2013 00:55:49 GMT
+Server: Apache/2.2.14 (Ubuntu)
+Last-Modified: Thu, 02 Aug 2012 07:46:42 GMT
+ETag: "1ef12c-c8-4c6439ccb7490"
+Accept-Ranges: bytes
+Content-Length: 200
+Content-Range: bytes 0-199/200
+Keep-Alive: timeout=15, max=100
+Connection: Keep-Alive
+Content-Type: text/html
+
+<html><body><h1>It works!</h1>
+<p>This is the default web page for this server.</p>
+<p>The web server software is running but no content has been added, yet.</p>
+<?php
+echo "hello";
+?>
+</body></html>

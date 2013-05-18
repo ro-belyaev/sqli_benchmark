@@ -1,0 +1,443 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/discovery/oHmap/known.servers
+END
+ibm_http_server.2.0.42.win32
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/discovery/oHmap/known.servers/ibm_http_server.2.0.42.win32
+END
+apache-1.3.36-freebsd
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/discovery/oHmap/known.servers/apache-1.3.36-freebsd
+END
+apache-1.3.41-F5-big-IP
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/discovery/oHmap/known.servers/apache-1.3.41-F5-big-IP
+END
+apache.1.3.27.freebsd.5.0
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/discovery/oHmap/known.servers/apache.1.3.27.freebsd.5.0
+END
+jigsaw.2.2.0.win32
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/discovery/oHmap/known.servers/jigsaw.2.2.0.win32
+END
+apache-2.2.8-Fedora
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/discovery/oHmap/known.servers/apache-2.2.8-Fedora
+END
+iis.5.0.win32
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/discovery/oHmap/known.servers/iis.5.0.win32
+END
+iis.6.0.win32
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/discovery/oHmap/known.servers/iis.6.0.win32
+END
+dwhttpd.4.1a6.solaris.8
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/discovery/oHmap/known.servers/dwhttpd.4.1a6.solaris.8
+END
+rapidsite-apa-irix
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/discovery/oHmap/known.servers/rapidsite-apa-irix
+END
+zope.2.6.0.solaris.8
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/discovery/oHmap/known.servers/zope.2.6.0.solaris.8
+END
+GeoHttpServer
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/discovery/oHmap/known.servers/GeoHttpServer
+END
+zeus-4.3_php-5.1.4
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/discovery/oHmap/known.servers/zeus-4.3_php-5.1.4
+END
+apache.2.2.unix
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/discovery/oHmap/known.servers/apache.2.2.unix
+END
+apache.1.3.22.win32
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/discovery/oHmap/known.servers/apache.1.3.22.win32
+END
+jigsaw.2.2.2.solaris.8
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/discovery/oHmap/known.servers/jigsaw.2.2.2.solaris.8
+END
+apache-2.2.8-ubuntu
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/discovery/oHmap/known.servers/apache-2.2.8-ubuntu
+END
+lighthttpd-1.5.0-linux
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/discovery/oHmap/known.servers/lighthttpd-1.5.0-linux
+END
+apache.2.2.8-ubuntu
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/discovery/oHmap/known.servers/apache.2.2.8-ubuntu
+END
+apache-1.3.41-freebsd
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/discovery/oHmap/known.servers/apache-1.3.41-freebsd
+END
+apache.coyote.1.1
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/discovery/oHmap/known.servers/apache.coyote.1.1
+END
+apache.1.3.39.sunOne
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/discovery/oHmap/known.servers/apache.1.3.39.sunOne
+END
+apache-2.2.8-linux
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/discovery/oHmap/known.servers/apache-2.2.8-linux
+END
+apache.2.0.52.unix
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/discovery/oHmap/known.servers/apache.2.0.52.unix
+END
+apache.1.3.26.solaris.8
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/discovery/oHmap/known.servers/apache.1.3.26.solaris.8
+END
+apache.1.3.27.mac.10.2.4
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/discovery/oHmap/known.servers/apache.1.3.27.mac.10.2.4
+END
+apache.2.2.9.win32
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/discovery/oHmap/known.servers/apache.2.2.9.win32
+END
+iis-6.0_asp_2.0.50727
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/discovery/oHmap/known.servers/iis-6.0_asp_2.0.50727
+END
+iis-7.0_asp_2.0.50727
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/discovery/oHmap/known.servers/iis-7.0_asp_2.0.50727
+END
+apache-1.3.41-linux
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/discovery/oHmap/known.servers/apache-1.3.41-linux
+END
+apache.1.3.27.rhl.8.0
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/discovery/oHmap/known.servers/apache.1.3.27.rhl.8.0
+END
+apache.1.3.12.win32
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/discovery/oHmap/known.servers/apache.1.3.12.win32
+END
+apache.1.3.34.benssl.1.55.ubuntu
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/discovery/oHmap/known.servers/apache.1.3.34.benssl.1.55.ubuntu
+END
+apache-1.3.33-macos
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/discovery/oHmap/known.servers/apache-1.3.33-macos
+END
+apache.1.3.14.win32
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/discovery/oHmap/known.servers/apache.1.3.14.win32
+END
+apache.1.3.33.win32
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/discovery/oHmap/known.servers/apache.1.3.33.win32
+END
+webrick.1.3.1.unix
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/discovery/oHmap/known.servers/webrick.1.3.1.unix
+END
+apache-1.3.27-modperl-1.27-unix
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/discovery/oHmap/known.servers/apache-1.3.27-modperl-1.27-unix
+END
+ncsa.1.3.ultrix.4.4
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/discovery/oHmap/known.servers/ncsa.1.3.ultrix.4.4
+END
+apache-1.3.33-solaris
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/discovery/oHmap/known.servers/apache-1.3.33-solaris
+END
+intoto-http-server-v1.0
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/discovery/oHmap/known.servers/intoto-http-server-v1.0
+END
+nginx-linux
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/discovery/oHmap/known.servers/nginx-linux
+END
+iis-5.0
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/discovery/oHmap/known.servers/iis-5.0
+END
+jigsaw.2.0.5.win32
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/discovery/oHmap/known.servers/jigsaw.2.0.5.win32
+END
+iis-7.0
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/discovery/oHmap/known.servers/iis-7.0
+END
+apache.1.3.26.freebsd.4.6.2.r
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/discovery/oHmap/known.servers/apache.1.3.26.freebsd.4.6.2.r
+END
+apache.1.3.27.freebsd.4.7
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/discovery/oHmap/known.servers/apache.1.3.27.freebsd.4.7
+END
+apache.1.3.39.unix
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/discovery/oHmap/known.servers/apache.1.3.39.unix
+END
+gfe-1.3
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/discovery/oHmap/known.servers/gfe-1.3
+END
+apache-1.3.9-php-3.0.11-freebsd
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/discovery/oHmap/known.servers/apache-1.3.9-php-3.0.11-freebsd
+END
+apache.1.3.31
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/discovery/oHmap/known.servers/apache.1.3.31
+END
+apache.2.0.44.win32
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/discovery/oHmap/known.servers/apache.2.0.44.win32
+END
+apache-2.2.9-debian
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/discovery/oHmap/known.servers/apache-2.2.9-debian
+END
+oracle_application_server_10g_9.0.4.0.0
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/discovery/oHmap/known.servers/oracle_application_server_10g_9.0.4.0.0
+END
+thttpd.2.23beta1.freebsd.4.6.st
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/discovery/oHmap/known.servers/thttpd.2.23beta1.freebsd.4.6.st
+END
+apache.2.2.9.win32.xampp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/discovery/oHmap/known.servers/apache.2.2.9.win32.xampp
+END
+apache-2.2.3
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/discovery/oHmap/known.servers/apache-2.2.3
+END
+apache-1.3.29-freebsd
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/discovery/oHmap/known.servers/apache-1.3.29-freebsd
+END
+apache-2.2.3-redhat
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/discovery/oHmap/known.servers/apache-2.2.3-redhat
+END
+apache.2.0.55.ubuntu
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/discovery/oHmap/known.servers/apache.2.0.55.ubuntu
+END
+apache.1.3.27.mac.10.1.5
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/discovery/oHmap/known.servers/apache.1.3.27.mac.10.1.5
+END
+apache.2.0.40.rhl.8.0
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/discovery/oHmap/known.servers/apache.2.0.40.rhl.8.0
+END
+apache.1.3.9.win32
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/discovery/oHmap/known.servers/apache.1.3.9.win32
+END
+iis-5.1-es
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/discovery/oHmap/known.servers/iis-5.1-es
+END
+badblue.2.1.win32
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/discovery/oHmap/known.servers/badblue.2.1.win32
+END
+apache.1.3.23.rhl.7.3
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/discovery/oHmap/known.servers/apache.1.3.23.rhl.7.3
+END
+oversee-1.3.18
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/discovery/oHmap/known.servers/oversee-1.3.18
+END
+thttpd.2.23beta1.rhl.7.3
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/discovery/oHmap/known.servers/thttpd.2.23beta1.rhl.7.3
+END
+apache.2.2.6.debian
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/discovery/oHmap/known.servers/apache.2.2.6.debian
+END
+apache.1.3.17.win32
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/discovery/oHmap/known.servers/apache.1.3.17.win32
+END
+apache.2.2.8.unix
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/discovery/oHmap/known.servers/apache.2.2.8.unix
+END
+hpws.2.00.1454.solaris.8
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/discovery/oHmap/known.servers/hpws.2.00.1454.solaris.8
+END
+webrick.1.3.1.windows
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/discovery/oHmap/known.servers/webrick.1.3.1.windows
+END

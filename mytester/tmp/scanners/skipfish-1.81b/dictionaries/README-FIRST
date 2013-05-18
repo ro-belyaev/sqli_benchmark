@@ -1,0 +1,131 @@
+This directory contains four alternative, hand-picked Skipfish dictionaries.
+
+PLEASE READ THIS FILE CAREFULLY BEFORE PICKING ONE. This is *critical* to
+getting good results in your work.
+
+----------------
+Dictionary modes
+----------------
+
+The basic modes you should be aware of (in order of request cost):
+
+1) Orderly crawl with no DirBuster-like brute-force at all. In this mode, the
+   scanner will not discover non-linked resources such as /admin,
+   /index.php.old, etc:
+
+   ./skipfish -W /dev/null -LV [...other options...]
+
+   This mode is very fast, but *NOT* recommended for general use because of
+   limited coverage. Use only where absolutely necessary.
+
+2) Orderly scan with minimal extension brute-force. In this mode, the scanner
+   will not discover resources such as /admin, but will discover cases such as
+   /index.php.old:
+
+   cp dictionaries/extensions-only.wl dictionary.wl
+   ./skipfish -W dictionary.wl -Y [...other options...]
+
+   This method is only slightly more request-intensive than #1, and therefore,
+   generally recommended in cases where time is of essence. The cost is about
+   90 requests per fuzzed location.
+
+3) Directory OR extension brute-force only. In this mode, the scanner will only
+   try fuzzing the file name, or the extension, at any given time - but will 
+   not try every possible ${filename}.${extension} pair from the dictionary.
+
+   cp dictionaries/complete.wl dictionary.wl
+   ./skipfish -W dictionary.wl -Y [...other options...]
+
+   This method has a cost of about 1,700 requests per fuzzed location, and is
+   recommended for rapid assessments, especially when working with slow 
+   servers or very large services.
+
+4) Normal dictionary fuzzing. In this mode, every ${filename}.${extension}
+   pair will be attempted. This mode is significantly slower, but offers
+   superior coverage, and should be your starting point.
+
+   cp dictionaries/XXX.wl dictionary.wl
+   ./skipfish -W dictionary.wl [...other options...]
+
+   Replace XXX with:
+
+     minimal   - recommended starter dictionary, mostly focusing on backup
+                 and source files, under 50,000 requests per fuzzed location.
+
+     medium    - more thorough dictionary, focusing on common frameworks,
+                 under 100,000 requests.
+
+     complete  - all-inclusive dictionary, over 150,000 requests.
+
+   Normal fuzzing mode is recommended when doing thorough assessments of
+   reasonably responsive servers; but it may be prohibitively expensive
+   when dealing with very large or very slow sites.
+
+As should be obvious, the -W option points to a dictionary to be used; the
+scanner updates the file based on scan results, so please always make a
+target-specific copy - do not use the master file directly, or it may be
+polluted with keywords not relevant to other targets.
+
+Additional options supported by the aforementioned modes:
+
+  -L      - do not automatically learn new keywords based on site content.
+            This option should not be normally used in most scanning
+            modes; *not* using it significantly improves the coverage of
+            minimal.wl.
+
+  -G num  - specifies jar size for keyword candidates selected from the
+            content; up to <num> candidates are kept and tried during
+            brute-force checks; when one of them results in a unique
+            non-404 response, it is promoted to the dictionary proper.
+
+  -V      - prevents the scanner from updating the dictionary file with
+            newly discovered keywords and keyword usage stats (i.e., all
+            new findings are discarded on exit).
+
+  -Y      - inhibits full ${filename}.${extension} brute-force: the scanner
+            will only brute-force one component at a time. This greatly
+            improves scan times, but reduces coverage. Modes 2 and 3
+            shown above make use of this flag.
+
+  -R num  - purges all dictionary entries that had no non-404 hits for
+            the last <num> scans. Prevents dictionary creep in repeated
+            assessments, but use with care!
+
+-----------------------------
+More about dictionary design:
+-----------------------------
+
+Each dictionary may consist of a number of extensions, and a number of 
+"regular" keywords. Extensions are considered just a special subset of the
+keyword list.
+
+You can create custom dictionaries, conforming to this format:
+
+type hits total_age last_age keyword
+
+...where 'type' is either 'e' or 'w' (extension or wordlist); 'hits' is the
+total number of times this keyword resulted in a non-404 hit in all previous
+scans; 'total_age' is the number of scan cycles this word is in the dictionary;
+'last_age' is the number of scan cycles since the last 'hit'; and 'keyword' is
+the actual keyword.
+
+Do not duplicate extensions as keywords - if you already have 'html' as an 'e'
+entry, there is no need to also create a 'w' one.
+
+There must be no empty or malformed lines, comments in the wordlist file.
+Extension keywords must have no leading dot (e.g., 'exe', not '.exe'), and all
+keywords should be NOT url-encoded (e.g., 'Program Files', not 
+'Program%20Files'). No keyword should exceed 64 characters.
+
+If you omit -W in the command line, 'skipfish.wl' is assumed. This file does
+not exist by default; this is by design.
+
+The scanner will automatically learn new keywords and extensions based on any
+links discovered during the scan; and will also analyze pages and extract
+words to use as keyword candidates.
+
+Tread carefully; poor wordlists are one of the reasons why some web security
+scanners perform worse than expected. You will almost always be better off
+narrowing down or selectively extending the supplied set (and possibly
+contributing back your changes upstream!), than importing a giant wordlist
+scored elsewhere.

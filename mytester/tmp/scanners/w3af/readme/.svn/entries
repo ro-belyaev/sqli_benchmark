@@ -1,0 +1,109 @@
+8
+
+dir
+3968
+https://w3af.svn.sourceforge.net/svnroot/w3af/tags/1.0-rc5/readme
+https://w3af.svn.sourceforge.net/svnroot/w3af
+
+
+
+2011-01-14T19:50:37.150359Z
+3899
+andresriancho
+has-props
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+16c29cf1-982c-0410-8ff8-8bb040e68b5b
+
+EN
+dir
+
+GPL
+file
+
+
+
+
+2011-01-18T17:38:40.000000Z
+53b6c3648a3732688e86c8a7373c6924
+2008-03-19T14:50:16.893565Z
+851
+andresriancho
+
+TODO
+file
+
+
+
+
+2011-01-18T17:38:40.000000Z
+32260eaa1b13efc9da71bc9e082891a9
+2007-12-26T02:02:27.603768Z
+416
+andresriancho
+
+RU
+dir
+
+INSTALL
+file
+
+
+
+
+2011-01-18T17:38:40.000000Z
+b2d8d11eab95b8d748c33ad87d0da8b1
+2008-09-18T18:54:55.465574Z
+1772
+andresriancho
+
+FR
+dir
+
+CHANGELOG
+file
+
+
+
+
+2011-01-18T17:38:40.000000Z
+d0116b8f40de60e143e0b98b82cfdbc3
+2011-01-10T18:48:17.301829Z
+3886
+andresriancho
+
+CONTRIBUTORS
+file
+
+
+
+
+2011-01-18T17:38:40.000000Z
+20c6da98b3e5c669f4affe2698046d80
+2009-01-17T23:04:41.564621Z
+2334
+andresriancho
+
+README
+file
+
+
+
+
+2011-01-18T17:38:40.000000Z
+02e65cf88a2c0650b6075ee30dd1a4e2
+2009-01-12T12:40:09.249346Z
+2317
+andresriancho
+

@@ -1,0 +1,733 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="xslt_test.xslt"?>
+
+<tree>
+    <nodes>
+        <node id="all-tests" parent-id="-1">
+	    <name lang="ru">полное тестовое покрытие</name>
+	    <name lang="en">full test coverage</name>
+        </node>
+
+	
+
+
+	<node id="config" parent-id="all-tests">
+	    <name lang="ru">конфигурация веб-сервера apache</name>
+	    <name lang="en">apache configuration</name>
+	</node>
+	<node id="sql-point" parent-id="all-tests">
+	    <name lang="ru">точка SQL-запроса, в которой используются входные данные</name>
+	    <name lang="en">injecting SQL-request point</name>
+	</node>
+        <node id="data-filtering" parent-id="all-tests">
+            <name lang="ru">подход к обработке входных данных (фильтрация)</name>
+            <name lang="en">filtering</name>
+        </node>
+	<node id="output" parent-id="all-tests">
+	    <name lang="ru">формирование HTTP-ответа</name>
+	    <name lang="en">HTTP-response formation</name>
+	</node>
+        <node id="http-response-part-dependent-from-sql-request-result" parent-id="all-tests">
+            <name lang="ru">часть HTTP-ответа, зависящая от результата SQL-запроса</name>
+            <name lang="en">HTTP-response part dependent from SQL-request result</name>
+        </node>
+
+
+
+
+	<node id="config-display-errors" parent-id="config">
+	    <name lang="ru">вывод ошибок в тело http-ответа</name>
+	    <name lang="en">errors output in http-response body</name>
+	</node>
+	<node id="config-connection" parent-id="config">
+	    <name lang="ru">подключение к БД</name>
+	    <name lang="en">connection to DB</name>
+	</node>
+
+
+
+
+        <node id="select-clause-field" parent-id="sql-point">
+            <name lang="ru">внедрение в SQL-запрос после ключевого слова SELECT</name>
+            <name lang="en">injection after SELECT clause</name>
+        </node>
+        <node id="where-clause-field" parent-id="sql-point">
+            <name lang="ru">внедрение в SQL-запрос после ключевого слова WHERE</name>
+            <name lang="en">injection after WHERE clause</name>
+        </node>
+        <node id="order-by-clause-field" parent-id="sql-point">
+            <name lang="ru">внедрение в SQL-запрос после ключевого слова ORDER BY</name>
+            <name lang="en">injection after ORDER BY clause</name>
+        </node>
+
+	<node id="where-clause-field-int" parent-id="where-clause-field">
+	    <name lang="ru">тип внедряемого параметра - число</name>
+	    <name lang="en">injecting parameter is a number</name>
+	</node>
+	<node id="where-clause-field-str" parent-id="where-clause-field">
+	    <name lang="ru">тип внедряемого параметра - строка</name>
+	    <name lang="en">injecting parameter is a string</name>
+	</node>
+
+	<node id="order-by-clause-field-num" parent-id="order-by-clause-field">
+	    <name lang="ru">внедряемый параметр - порядковый номер столбца</name>
+	    <name lang="en">injecting parameter is an ID of column</name>
+	</node>
+	<node id="order-by-clause-field-name" parent-id="order-by-clause-field">
+	    <name lang="ru">внедряемый параметр - имя столбца</name>
+	    <name lang="en">injecting parameter is a column name</name>
+	</node>
+	<node id="order-by-clause-field-expr" parent-id="order-by-clause-field">
+	    <name lang="ru">внедряемый параметр - порядковый номер столбца, который вставляется в выражение</name>
+	    <name lang="en">injecting parameter is an ID of column in statement</name>
+	</node>
+	<node id="order-by-clause-field-way" parent-id="order-by-clause-field">
+	    <name lang="ru">внедряемый параметр - порядковый номер столбца, после которого указывается порядок сортировки</name>
+	    <name lang="en">injecting parameter preceding ASK/DESC</name>
+	</node>
+
+
+
+
+	<node id="data-filtering-delete" parent-id="data-filtering">
+	    <name lang="ru">подход удаление</name>
+	    <name lang="en">deleting</name>
+	</node>
+	<node id="data-filtering-escape" parent-id="data-filtering">
+	    <name lang="ru">подход экранирование</name>
+	    <name lang="en">escaping</name>
+	</node>
+
+
+
+    </nodes>
+
+
+    <criterions>
+	<criterion id="config-display-errors-criterion" container="config-display-errors" type="single">
+	    <condition value="true">
+		<description lang="ru">в тело HTTP-ответа выводятся ошибки (error_display=1)</description>
+		<description lang="en">errors output in HTTP-response (error_display=1)</description>
+	    </condition>
+	    <condition value="false">
+		<description lang="ru">в тело HTTP-ответа не выводятся ошибки (error_display=0)</description>
+		<description lang="en">no errors output in HTTP-response (error_display=0)</description>
+	    </condition>
+	</criterion>
+	<criterion id="config-connection-criterion" container="config-connection" type="single">
+	    <condition value="true">
+		<description lang="ru">подключение как root_mybench_ns</description>
+		<description lang="en">connection root_mybench_ns</description>
+	    </condition>
+	    <condition value="false">
+		<description lang="ru">подклячение как root</description>
+		<description lang="en">connection root</description>
+	    </condition>
+	</criterion>
+
+
+
+
+        <criterion id="select-clause-field-backticks-surrounding" container="select-clause-field" type="single">
+            <condition value="backticks">
+                <description lang="ru">имя столбца используется внутри обратных кавычек</description>
+                <description lang="en">column name is in backticks</description>
+            </condition>
+            <condition value="no-backticks">
+                <description lang="ru">имя столбца используется без обратных кавычек</description>
+                <description lang="en">column name is not in backticks</description>
+            </condition>
+        </criterion>
+        <criterion id="select-clause-field-parentheses-surrounding" container="select-clause-field" type="single">
+            <condition value="0">
+                <description lang="ru">имя столбца используется без скобок</description>
+                <description lang="en">column name is not in parentheses</description>
+            </condition>
+            <condition value="1">
+                <description lang="ru">имя столбца используется внутри одинарных скобок</description>
+                <description lang="en">column name is in single parentheses</description>
+            </condition>
+            <condition value="2">
+                <description lang="ru">имя столбца используется внутри двойных скобок</description>
+                <description lang="en">column name is in double parentheses</description>
+            </condition>
+        </criterion>
+        <criterion id="select-clause-field-concat" container="select-clause-field" type="single">
+            <condition value="concat">
+                <description lang="ru">имя столбца используется внутри функции CONCAT()</description>
+                <description lang="en">column name is in CONCAT()</description>
+            </condition>
+            <condition value="no-concat">
+                <description lang="ru">имя столбца используется без функции CONCAT()</description>
+                <description lang="en">column name is not in CONCAT()</description>
+            </condition>
+        </criterion>
+
+
+
+
+
+
+
+	<criterion id="where-clause-parameter-type-int" container="where-clause-field-int" type="hidden">
+	    <condition value="int">
+		<description lang="ru">тип внедряемого параметра - число</description>
+		<description lang="en">injecting parameter is a number</description>
+	    </condition>
+	</criterion>
+	<criterion id="where-clause-parameter-type-str" container="where-clause-field-str" type="hidden">
+	    <condition value="str">
+		<description lang="ru">тип внедряемого параметра - строка</description>
+		<description lang="en">injecting parameter is a string</description>
+	    </condition>
+	</criterion>
+
+	<criterion id="where-clause-field-quote-int" container="where-clause-field-int" type="single">
+	    <condition value="false">
+		<description lang="ru">внедряемый параметр используется без кавычек</description>
+		<description lang="en">injecting parameter is not in quotes</description>
+	    </condition>
+	    <condition value="single-quote">
+		<description lang="ru">внедряемый параметр используется в одинарных кавычках</description>
+		<description lang="en">injecting parameter is in single quotes</description>
+	    </condition>
+	    <condition value="double-quote">
+		<description lang="ru">внедряемый параметр используется в двойных кавычках</description>
+		<description lang="en">injecting parameter is double quotes</description>
+	    </condition>
+	</criterion>
+	<criterion id="where-clause-field-quote-str" container="where-clause-field-str" type="single">
+	    <condition value="single-quote">
+		<description lang="ru">внедряемый параметр используется в одинарных кавычках</description>
+		<description lang="en">injecting parameter is in single quotes</description>
+	    </condition>
+	    <condition value="double-quote">
+		<description lang="ru">внедряемый параметр используется в двойных кавычках</description>
+		<description lang="en">injecting parameter is in double quotes</description>
+	    </condition>
+	</criterion>
+	
+	<criterion id="where-clause-field-func-int" container="where-clause-field-int" type="single">
+	    <condition value="false">
+		<description lang="ru">внедряемый параметр не используется внутри функции ABS()</description>
+		<description lang="en">injecting parameter is not in ABS()</description>
+	    </condition>
+	    <condition value="true">
+		<description lang="ru">внедряемый параметр используется внутри функции ABS()</description>
+		<description lang="en">injecting parameter is in ABS()</description>
+	    </condition>
+	</criterion>
+	<criterion id="where-clause-field-func-str" container="where-clause-field-str" type="single">
+	    <condition value="false">
+		<description lang="ru">внедряемый параметр не используется внутри функции CONCAT()</description>
+		<description lang="en">injecting parameter is not in CONCAT()</description>
+	    </condition>
+	    <condition value="true">
+		<description lang="ru">внедряемый параметр используется внутри функции CONCAT()</description>
+		<description lang="en">injecting parameter is in CONCAT()</description>
+	    </condition>
+	</criterion>
+        
+	<criterion id="where-clause-field-parentheses-surrounding-int" container="where-clause-field-int" type="number">
+            <condition value="0">
+                <description lang="ru">внедряемый параметр используется без скобок</description>
+                <description lang="en">injecting parameter is not in parentheses</description>
+            </condition>
+            <condition value="1">
+                <description lang="ru">внедряемый параметр используется внутри одинарных скобок</description>
+                <description lang="en">injecting parameter is in single parentheses</description>
+            </condition>
+            <condition value="2">
+                <description lang="ru">внедряемый параметр используется внутри двойных скобок</description>
+                <description lang="en">injecting parameter is in double parentheses</description>
+            </condition>
+        </criterion>
+	<criterion id="where-clause-field-parentheses-surrounding-str" container="where-clause-field-str" type="number">
+            <condition value="0">
+                <description lang="ru">внедряемый параметр используется без скобок</description>
+                <description lang="en">injecting parameter is not in parentheses</description>
+            </condition>
+            <condition value="1">
+                <description lang="ru">внедряемый параметр используется внутри одинарных скобок</description>
+                <description lang="en">injecting parameter is in single parentheses</description>
+            </condition>
+            <condition value="2">
+                <description lang="ru">внедряемый параметр используется внутри двойных скобок</description>
+                <description lang="en">injecting parameter is in double parentheses</description>
+            </condition>
+        </criterion>
+	
+	<criterion id="where-clause-field-exist-int" container="where-clause-field-int" type="single">
+	    <condition value="false">
+		<description lang="ru">на запрос к БД вернётся пустая выборка</description>
+		<description lang="en">response from DB is empty sample</description>
+	    </condition>
+	    <condition value="true">
+		<description lang="ru">на запрос к БД вернётся один картеж</description>
+		<description lang="en">response from DB is one tuple</description>
+	    </condition>
+	</criterion>
+	<criterion id="where-clause-field-exist-str" container="where-clause-field-str" type="single">
+	    <condition value="false">
+		<description lang="ru">на запрос к БД вернётся пустая выборка</description>
+		<description lang="en">response from DB is empty sample</description>
+	    </condition>
+	    <condition value="true">
+		<description lang="ru">на запрос к БД вернётся один картеж</description>
+		<description lang="en">response from DB is one tuple</description>
+	    </condition>
+	</criterion>
+	
+	<criterion id="where-clause-field-invert-parameter-int" container="where-clause-field-int" type="single">
+	    <condition value="false">
+		<description lang="ru">в SQL-запросе сначала идёт имя параметра, а затем внедряемое значение</description>
+		<description lang="en">parameter value follows after the parameter name in SQL-request</description>
+	    </condition>
+	    <condition value="true">
+		<description lang="ru">в SQL-запросе сначала идёт внедряемое значение параметра, а затем имя параметра</description>
+		<description lang="en">parameter name follows after the parameter value in SQL-request</description>
+	    </condition>
+	</criterion>
+	<criterion id="where-clause-field-invert-parameter-str" container="where-clause-field-str" type="single">
+	    <condition value="false">
+		<description lang="ru">в SQL-запросе сначала идёт имя параметра, а затем внедряемое значение</description>
+		<description lang="en">parameter value follows after the parameter name in SQL-request</description>
+	    </condition>
+	    <condition value="true">
+		<description lang="ru">в SQL-запросе сначала идёт внедряемое значение параметра, а затем имя параметра</description>
+		<description lang="en">parameter name follows after the parameter value in SQL-request</description>
+	    </condition>
+	</criterion>
+	
+	<criterion id="where-clause-field-prefix-int" container="where-clause-field-int" type="single">
+	    <condition value="empty">
+		<description lang="ru">перед внедряемым параметром нет префикса</description>
+		<description lang="en">injecting parameter has no prefix</description>
+	    </condition>
+	    <condition value="zero-and">
+		<description lang="ru">перед внедряемым параметром есть префикс 0 and</description>
+		<description lang="en">injecting parameter has 0 and prefix</description>
+	    </condition>
+	    <condition value="one-or">
+		<description lang="ru">перед внедряемым параметром есть префикс 1 or</description>
+		<description lang="en">injecting parameter has 1 or prefix</description>
+	    </condition>
+	</criterion>
+	<criterion id="where-clause-field-prefix-str" container="where-clause-field-str" type="single">
+	    <condition value="empty">
+		<description lang="ru">перед внедряемым параметром нет префикса</description>
+		<description lang="en">injecting parameter has no prefix</description>
+	    </condition>
+	    <condition value="zero-and">
+		<description lang="ru">перед внедряемым параметром есть префикс 0 and</description>
+		<description lang="en">injecting parameter has 0 and prefix</description>
+	    </condition>
+	    <condition value="one-or">
+		<description lang="ru">перед внедряемым параметром есть префикс 1 or</description>
+		<description lang="en">injecting parameter has 1 or prefix</description>
+	    </condition>
+	</criterion>
+
+	<criterion id="where-clause-field-postfix-int" container="where-clause-field-int" type="single">
+	    <condition value="empty">
+		<description lang="ru">после внедряемого параметра нет постфикса</description>
+		<description lang="en">injecting parameter has no postfix</description>
+	    </condition>
+	    <condition value="and-zero">
+		<description lang="ru">после внедряемого параметра есть постфикс and 0</description>
+		<description lang="en">injecting parameter has and 0 postfix</description>
+	    </condition>
+	    <condition value="or-one">
+		<description lang="ru">после внедряемого параметра есть постфикс or 1</description>
+		<description lang="en">injecting parameter has or 1 postfix</description>
+	    </condition>
+	</criterion>
+	<criterion id="where-clause-field-postfix-str" container="where-clause-field-str" type="single">
+	    <condition value="empty">
+		<description lang="ru">после внедряемого параметра нет постфикса</description>
+		<description lang="en">injecting parameter has no postfix</description>
+	    </condition>
+	    <condition value="and-zero">
+		<description lang="ru">после внедряемого параметра есть постфикс and 0</description>
+		<description lang="en">injecting parameter has and 0 postfix</description>
+	    </condition>
+	    <condition value="or-one">
+		<description lang="ru">после внедряемого параметра есть постфикс or 1</description>
+		<description lang="en">injecting parameter has or 1 postfix</description>
+	    </condition>
+	</criterion>
+
+
+
+
+
+	<criterion id="order-by-clause-field-num-diff" container="order-by-clause-field-num" type="single">
+	    <condition value="true">
+		<description lang="ru">значение внедряемого параметра - 2</description>
+		<description lang="en">injecting parameter value - 2</description>
+	    </condition>
+	    <condition value="false">
+		<description lang="ru">значение внедряемого параметра - 3</description>
+		<description lang="en">injecting parameter value - 3</description>
+	    </condition>
+	</criterion>
+	<criterion id="order-by-clause-field-num-view" container="order-by-clause-field-num" type="single">
+	    <condition value="all">
+		<description lang="ru">из БД возвращаются все кортежи</description>
+		<description lang="en">all tuples return from DB</description>
+	    </condition>
+	    <condition value="one">
+		<description lang="ru">из БД возвращается один кортеж (where id=1)</description>
+		<description lang="en">one tuple returns from DB (where id=1)</description>
+	    </condition>
+	    <condition value="first">
+		<description lang="ru">из БД возвращается первый кортеж (limit 1 после внедряемого параметра)</description>
+		<description lang="en">first tuple returns from DB (limit 1 after injecting parameter)</description>
+	    </condition>
+	</criterion>
+	<criterion id="order-by-clause-field-name-diff" container="order-by-clause-field-name" type="single">
+	    <condition value="true">
+		<description lang="ru">значение внедряемого параметра - имя второго столбца</description>
+		<description lang="en">injecting parameter value is the second's column name</description>
+	    </condition>
+	    <condition value="false">
+		<description lang="ru">значение внедряемого параметра - имя третьего столбца</description>
+		<description lang="en">injecting parameter value is the third's column name</description>
+	    </condition>
+	</criterion>
+	<criterion id="order-by-clause-field-name-view" container="order-by-clause-field-name" type="single">
+	    <condition value="all">
+		<description lang="ru">из БД возвращаются все кортежи</description>
+		<description lang="en">all tuples return from DB</description>
+	    </condition>
+	    <condition value="one">
+		<description lang="ru">из БД возвращается один кортеж (where id=1)</description>
+		<description lang="en">one tuple returns from DB (where id=1)</description>
+	    </condition>
+	    <condition value="first">
+		<description lang="ru">из БД возвращается первый кортеж (limit 1 после внедряемого параметра)</description>
+		<description lang="en">first tuple returns from DB(limit 1 after injecting parameter)</description>
+	    </condition>
+	</criterion>
+	<criterion id="order-by-clause-field-name-quote" container="order-by-clause-field-name" type="single">
+	    <condition value="false">
+		<description lang="ru">внедряемый параметр используется без кавычек</description>
+		<description lang="en">injecting parameter is not in quotes</description>
+	    </condition>
+	    <condition value="backticks">
+		<description lang="ru">внедряемый параметр используется внутри обратных кавычек</description>
+		<description lang="en">injecting parameter is in backticks</description>
+	    </condition>
+	</criterion>
+	<criterion id="order-by-clause-field-expr-diff" container="order-by-clause-field-expr" type="single">
+	    <condition value="true">
+		<description lang="ru">внедряемый параметр умножается на имя столбца</description>
+		<description lang="en">injecting parameter multiplies to the column name</description>
+	    </condition>
+	    <condition value="false">
+		<description lang="ru">внедряемый параметр умножается на число</description>
+		<description lang="en">injecting parameter multiplies to the number</description>
+	    </condition>
+	</criterion>
+	<criterion id="order-by-clause-field-expr-view" container="order-by-clause-field-expr" type="single">
+	    <condition value="all">
+		<description lang="ru">из БД возвращаются все кортежи</description>
+		<description lang="en">all tuples return from DB</description>
+	    </condition>
+	    <condition value="one">
+		<description lang="ru">из БД возвращается один кортеж (where id=1)</description>
+		<description lang="en">one tuple returns from DB (where id=1)</description>
+	    </condition>
+	    <condition value="first">
+		<description lang="ru">из БД возвращается первый кортеж (limit 1 после внедряемого параметра)</description>
+		<description lang="en">first tuple returns from DB (limit 1 after injecting parameter)</description>
+	    </condition>
+	</criterion>
+	<criterion id="order-by-clause-field-expr-func" container="order-by-clause-field-expr" type="single">
+	    <condition value="true">
+		<description lang="ru">внедряемый параметр используется внутри функции ABS()</description>
+		<description lang="en">injecting parameter is in ABS()</description>
+	    </condition>
+	    <condition value="false">
+		<description lang="ru">внедряемый параметр не используется внутри функции ABS()</description>
+		<description lang="en">injecting parameter is not in ABS()</description>
+	    </condition>
+	</criterion>
+	<criterion id="order-by-clause-field-expr-parentheses-surrounding" container="order-by-clause-field-expr" type="number">
+            <condition value="0">
+                <description lang="ru">внедряемый параметр используется без скобок</description>
+                <description lang="en">injecting parameter is not in parentheses</description>
+            </condition>
+            <condition value="1">
+                <description lang="ru">внедряемый параметр используется внутри одинарных скобок</description>
+                <description lang="en">injecting parameter is in single parentheses</description>
+            </condition>
+            <condition value="2">
+                <description lang="ru">внедряемый параметр используется внутри двойных скобок</description>
+                <description lang="en">injecting parameter is in double parentheses</description>
+            </condition>
+        </criterion>
+	<criterion id="order-by-clause-field-way-diff" container="order-by-clause-field-way" type="single">
+	    <condition value="true">
+		<description lang="ru">значение внедряемого параметра - имя первого столбца</description>
+		<description lang="en">injecting parameter value is the name of the first column</description>
+	    </condition>
+	    <condition value="false">
+		<description lang="ru">значение внедряемого параметра - имя третьего столбца</description>
+		<description lang="en">injecting parameter value is the name of the third column</description>
+	    </condition>
+	</criterion>
+	<criterion id="order-by-clause-field-way-view" container="order-by-clause-field-way" type="single">
+	    <condition value="all">
+		<description lang="ru">из БД возвращаются все кортежи</description>
+		<description lang="en">all tuples return from DB</description>
+	    </condition>
+	    <condition value="one">
+		<description lang="ru">из БД возвращается один кортеж (where id=1)</description>
+		<description lang="en">one tuple returns from DB (where id=1)</description>
+	    </condition>
+	    <condition value="first">
+		<description lang="ru">из БД возвращается первый кортеж (limit 1 после внедряемого параметра)</description>
+		<description lang="en">first tuple returns from DB (limit 1 after injecting parameter)</description>
+	    </condition>
+	</criterion>
+
+
+
+
+
+
+
+
+	<criterion id="data-filtering-delete-criterion" container="data-filtering-delete" type="single">
+	    <condition value="blank">
+		<description lang="ru">удаление пробелов</description>
+		<description lang="en">space deletion</description>
+	    </condition>
+	    <condition value="single">
+		<description lang="ru">удаление одинарных кавычек</description>
+		<description lang="en">single quotes deletion</description>
+	    </condition>
+	    <condition value="comment">
+		<description lang="ru">удаление mysql-комментариев</description>
+		<description lang="en">mysql-comments deletion</description>
+	    </condition>
+	</criterion>
+
+	<criterion id="data-filtering-escape-criterion" container="data-filtering-escape" type="single">
+	    <condition value="single">
+		<description lang="ru">экранирование одинарных кавычек</description>
+		<description lang="en">single quotes escaping</description>
+	    </condition>
+	    <condition value="double">
+		<description lang="ru">экранирование двойных кавычек</description>
+		<description lang="en">double quotes escaping</description>
+	    </condition>
+	    <condition value="single-and-double">
+		<description lang="ru">экранирование одинарных и двойных кавычек</description>
+		<description lang="en">single and double quotes escaping</description>
+	    </condition>
+	</criterion>
+
+	<criterion id="data-filtering-zero" container="data-filtering" type="single">
+	    <condition value="real">
+		<description lang="ru">внедряемые данные не фильтруются</description>
+		<description lang="en">injecting data is not filtering</description>
+	    </condition>
+	</criterion>
+
+	<criterion id="data-filtering-real-escape" container="data-filtering" type="single">
+	    <condition value="real">
+		<description lang="ru">использование функции mysql_real_escape_string</description>
+		<description lang="en">mysql_real_escape_string filtering</description>
+	    </condition>
+	</criterion>
+
+	<criterion id="data-filtering-int" container="data-filtering" type="single">
+	    <condition value="real">
+		<description lang="ru">приведение входных данных к целочисленному типу</description>
+		<description lang="en">custom injecting data to the int type</description>
+	    </condition>
+	</criterion>
+
+	<criterion id="data-filtering-cut-15" container="data-filtering" type="single">
+	    <condition value="real">
+		<description lang="ru">в SQL-запрос попадают только первые 15 символов</description>
+		<description lang="en">cut all but first 15 characters in SQL-request</description>
+	    </condition>
+	</criterion>
+
+
+
+
+
+
+	<criterion id="output-criterion" container="output" type="single">
+	    <condition value="simple">
+		<description lang="ru">каждый кортеж выводится ф-ей print_r между тегами pre</description>
+		<description lang="en">each row is displayed with print_r() between pre tags</description>
+	    </condition>
+	    <condition value="table">
+		<description lang="ru">вывод элемент - элемент таблицы</description>
+		<description lang="en">output is an element from a table</description>
+	    </condition>
+	    <condition value="table2">
+		<description lang="ru">выводится ошибка или таблица</description>
+		<description lang="en">output is an error or a table</description>
+	    </condition>
+	    <condition value="row">
+		<description lang="ru">все элементы выводятся в ряд</description>
+		<description lang="en">output is a row of all elements</description>
+	    </condition>
+	    <condition value="row2">
+		<description lang="ru">выводится ошибка или все элементы в ряд</description>
+		<description lang="en">output is an error or a raw of all elements</description>
+	    </condition>
+	    <condition value="single">
+		<description lang="ru">выводится первый элемент</description>
+		<description lang="en">output is a first element</description>
+	    </condition>
+	    <condition value="single2">
+		<description lang="ru">выводится ошибка или первый элемент</description>
+		<description lang="en">output is an error of a first element</description>
+	    </condition>
+	</criterion>
+
+
+
+
+
+
+	<criterion id="part-of-http-response" container="http-response-part-dependent-from-sql-request-result" type="single">
+	    <condition value="simple">
+		<description lang="ru">тело ответа - текст внутри тегов body</description>
+		<description lang="en">response body is a text in body tags</description>
+	    </condition>
+	    <condition value="big-rand-false">
+		<description lang="ru">тело ответа - текст внутри рандомной разметки (обёрнут большим количеством рандомных тегов)</description>
+		<description lang="en">response body is a text in random markup (wrapped in a lot of random tags)</description>
+	    </condition>
+	    <condition value="big-rand-true">
+		<description lang="ru">тело ответа - текст внутри рандомной разметки и вызывается функция srand</description>
+		<description lang="en">response body is a text in random markup and srand function is called</description>
+	    </condition>
+	    <condition value="header">
+		<description lang="ru">тело ответа в заголовке ответа Location</description>
+		<description lang="en">response body is in Location header</description>
+	    </condition>
+	</criterion>
+
+    </criterions>
+
+
+
+    <dependences-between-classes>
+
+	<dependence id="select-clause-field">
+            <dependent-criterion id="select-clause-field-backticks-surrounding"/>
+            <dependent-criterion id="select-clause-field-parentheses-surrounding"/>
+            <dependent-criterion id="select-clause-field-concat"/>
+        </dependence>
+
+	<dependence id="where-clause-field-int">
+	    <dependent-criterion id="where-clause-parameter-type-int"/>
+	    <dependent-criterion id="where-clause-field-quote-int"/>
+	    <dependent-criterion id="where-clause-field-func-int"/>
+	    <dependent-criterion id="where-clause-field-parentheses-surrounding-int"/>
+	    <dependent-criterion id="where-clause-field-exist-int"/>
+	    <dependent-criterion id="where-clause-field-invert-parameter-int"/>
+	    <dependent-criterion id="where-clause-field-prefix-int"/>
+	    <dependent-criterion id="where-clause-field-postfix-int"/>
+	</dependence>
+	<dependence id="where-clause-field-str">
+	    <dependent-criterion id="where-clause-parameter-type-str"/>
+	    <dependent-criterion id="where-clause-field-quote-str"/>
+	    <dependent-criterion id="where-clause-field-func-str"/>
+	    <dependent-criterion id="where-clause-field-parentheses-surrounding-str"/>
+	    <dependent-criterion id="where-clause-field-exist-str"/>
+	    <dependent-criterion id="where-clause-field-invert-parameter-str"/>
+	    <dependent-criterion id="where-clause-field-prefix-str"/>
+	    <dependent-criterion id="where-clause-field-postfix-str"/>
+	</dependence>
+
+	<dependence id="order-by-clause-field-num">
+	    <dependent-criterion id="order-by-clause-field-num-diff"/>
+	    <dependent-criterion id="order-by-clause-field-num-view"/>
+	</dependence>
+	<dependence id="order-by-clause-field-name">
+	    <dependent-criterion id="order-by-clause-field-name-diff"/>
+	    <dependent-criterion id="order-by-clause-field-name-view"/>
+	    <dependent-criterion id="order-by-clause-field-name-quote"/>
+	</dependence>
+	<dependence id="order-by-clause-field-expr">
+	    <dependent-criterion id="order-by-clause-field-expr-diff"/>
+	    <dependent-criterion id="order-by-clause-field-expr-view"/>
+	    <dependent-criterion id="order-by-clause-field-expr-func"/>
+	    <dependent-criterion id="order-by-clause-field-expr-parentheses-surrounding"/>
+	</dependence>
+	<dependence id="order-by-clause-field-way">
+	    <dependent-criterion id="order-by-clause-field-way-diff"/>
+	    <dependent-criterion id="order-by-clause-field-way-view"/>
+	</dependence>
+
+    </dependences-between-classes>
+	
+	
+	
+	
+    <dependences-between-criterions>
+	<dependence id="config" type="each">
+	    <dependent-criterion id="config-display-errors-criterion"/>
+	    <dependent-criterion id="config-connection-criterion"/>
+	</dependence>
+		
+	<dependence id="sql-point" type="at-least-one">
+	    <dependent-criterion id="select-clause-field-backticks-surrounding"/>
+	    <dependent-criterion id="select-clause-field-parentheses-surrounding"/>
+	    <dependent-criterion id="select-clause-field-concat"/>
+	    <dependent-criterion id="where-clause-field-parameter-type-int"/>
+	    <dependent-criterion id="where-clause-field-quote-int"/>
+	    <dependent-criterion id="where-clause-field-parentheses-surrounding-int"/>
+	    <dependent-criterion id="where-clause-field-exist-int"/>
+	    <dependent-criterion id="where-clause-field-invert-parameter-int"/>
+	    <dependent-criterion id="where-clause-field-prefix-int"/>
+	    <dependent-criterion id="where-clause-field-postfix-int"/>
+	    <dependent-criterion id="where-clause-field-parameter-type-str"/>
+	    <dependent-criterion id="where-clause-field-quote-str"/>
+	    <dependent-criterion id="where-clause-field-parentheses-surrounding-str"/>
+	    <dependent-criterion id="where-clause-field-exist-str"/>
+	    <dependent-criterion id="where-clause-field-invert-parameter-str"/>
+	    <dependent-criterion id="where-clause-field-prefix-str"/>
+	    <dependent-criterion id="where-clause-field-postfix-str"/>
+	    <dependent-criterion id="order-by-clause-field-num-diff"/>
+	    <dependent-criterion id="order-by-clause-field-num-view"/>
+	    <dependent-criterion id="order-by-clause-field-name-diff"/>
+	    <dependent-criterion id="order-by-clause-field-name-view"/>
+	    <dependent-criterion id="order-by-clause-field-name-quote"/>
+	    <dependent-criterion id="order-by-clause-field-expr-diff"/>
+	    <dependent-criterion id="order-by-clause-field-expr-view"/>
+	    <dependent-criterion id="order-by-clause-field-expr-func"/>
+	    <dependent-criterion id="order-by-clause-field-expr-parentheses-surrounding"/>
+	    <dependent-criterion id="order-by-clause-field-way-diff"/>
+	    <dependent-criterion id="order-by-clause-field-way-view"/>
+	</dependence>
+		
+	<dependence id="data-filtering" type="at-least-one">
+	    <dependent-criterion id="data-filtering-zero"/>
+	    <dependent-criterion id="data-filtering-real-escape"/>
+	    <dependent-criterion id="data-filtering-int"/>
+	    <dependent-criterion id="data-filtering-cut-15"/>
+	    <dependent-criterion id="data-filtering-delete-criterion"/>
+	    <dependent-criterion id="data-filtering-escape-criterion"/>
+	</dependence>
+		
+	<dependence id="output" type="at-least-one">
+	    <dependent-criterion id="output-criterion"/>
+	</dependence>
+		
+	<dependence id="http-response-part-dependent-from-sql-request-result" type="at-least-one">
+	    <dependent-criterion id="part-of-http-response"/>
+	</dependence>
+		
+    </dependences-between-criterions>
+</tree>

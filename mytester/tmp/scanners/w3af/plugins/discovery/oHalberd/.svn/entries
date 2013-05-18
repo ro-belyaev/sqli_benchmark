@@ -1,0 +1,163 @@
+8
+
+dir
+3968
+https://w3af.svn.sourceforge.net/svnroot/w3af/tags/1.0-rc5/plugins/discovery/oHalberd
+https://w3af.svn.sourceforge.net/svnroot/w3af
+
+
+
+2010-10-28T17:30:30.019426Z
+3653
+floydfuh
+has-props
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+16c29cf1-982c-0410-8ff8-8bb040e68b5b
+
+LICENSE
+file
+
+
+
+
+2011-01-18T17:38:01.000000Z
+393a5ca445f6965873eca0259a17f833
+2007-07-23T23:03:18.453010Z
+180
+andresriancho
+
+AUTHORS
+file
+
+
+
+
+2011-01-18T17:38:01.000000Z
+ac40719c379017a830df1df6684e80ea
+2007-07-23T23:03:18.453010Z
+180
+andresriancho
+
+scripts
+dir
+
+ChangeLog
+file
+
+
+
+
+2011-01-18T17:38:01.000000Z
+c598db44aa4485c351661634f5d87f5f
+2007-07-23T23:03:18.453010Z
+180
+andresriancho
+
+GNUmakefile
+file
+
+
+
+
+2011-01-18T17:38:01.000000Z
+1c14e4b26bb77d725e25c3301ff1415b
+2007-07-23T23:03:18.453010Z
+180
+andresriancho
+
+setup.py
+file
+
+
+
+
+2011-01-18T17:38:01.000000Z
+679edae4886a6b3e90637457f73e4d4e
+2007-07-23T23:03:18.453010Z
+180
+andresriancho
+
+THANKS
+file
+
+
+
+
+2011-01-18T17:38:01.000000Z
+04b82de95ee4afce16f12766a1472c07
+2007-07-23T23:03:18.453010Z
+180
+andresriancho
+
+README
+file
+
+
+
+
+2011-01-18T17:38:01.000000Z
+df08b5866f8ea83fa18ddfd37f3de828
+2007-07-23T23:03:18.453010Z
+180
+andresriancho
+
+Halberd
+dir
+
+tests
+dir
+
+doc
+dir
+
+INSTALL
+file
+
+
+
+
+2011-01-18T17:38:01.000000Z
+b4a1a02deb347c55fd677cb81ad6bcfb
+2007-07-23T23:03:18.453010Z
+180
+andresriancho
+
+PKG-INFO
+file
+
+
+
+
+2011-01-18T17:38:01.000000Z
+bb3dd9dd183442a6691c6acf19b5202e
+2007-07-23T23:03:18.453010Z
+180
+andresriancho
+
+man
+dir
+
+NEWS
+file
+
+
+
+
+2011-01-18T17:38:01.000000Z
+30c91e6d118e9afec7225ccc2fc99dbd
+2007-07-23T23:03:18.453010Z
+180
+andresriancho
+

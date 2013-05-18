@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/profiles
+END
+bruteforce.pw3af
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/profiles/bruteforce.pw3af
+END
+fast_scan.pw3af
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/profiles/fast_scan.pw3af
+END
+sitemap.pw3af
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/profiles/sitemap.pw3af
+END
+full_audit_manual_disc.pw3af
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/profiles/full_audit_manual_disc.pw3af
+END
+full_audit.pw3af
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/profiles/full_audit.pw3af
+END
+OWASP_TOP10.pw3af
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/profiles/OWASP_TOP10.pw3af
+END
+audit_high_risk.pw3af
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/profiles/audit_high_risk.pw3af
+END
+web_infrastructure.pw3af
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/profiles/web_infrastructure.pw3af
+END
+empty_profile.pw3af
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/profiles/empty_profile.pw3af
+END

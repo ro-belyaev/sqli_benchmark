@@ -1,0 +1,26 @@
+HTTP/1.1 200 Partial Content
+Date: Fri, 17 May 2013 00:55:57 GMT
+Server: Apache/2.2.14 (Ubuntu)
+Content-Range: bytes 0-1549/1550
+Content-Length: 1550
+Keep-Alive: timeout=15, max=82
+Connection: Keep-Alive
+Content-Type: text/html;charset=UTF-8
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+ <head>
+  <title>Index of /generation/mytests/tests/1</title>
+ </head>
+ <body>
+<h1>Index of /generation/mytests/tests/1</h1>
+<table><tr><th><img src="/icons/blank.gif" alt="[ICO]"></th><th><a href="?C=N;O=D">Name</a></th><th><a href="?C=M;O=A">Last modified</a></th><th><a href="?C=S;O=A">Size</a></th><th><a href="?C=D;O=A">Description</a></th></tr><tr><th colspan="5"><hr></th></tr>
+<tr><td valign="top"><img src="/icons/back.gif" alt="[DIR]"></td><td><a href="/generation/mytests/tests/">Parent Directory</a></td><td>&nbsp;</td><td align="right">  - </td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="1.log">1.log</a></td><td align="right">16-May-2013 22:01  </td><td align="right">  0 </td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="1.php">1.php</a></td><td align="right">16-May-2013 22:01  </td><td align="right">247 </td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="index.txt">index.txt</a></td><td align="right">16-May-2013 22:01  </td><td align="right">152 </td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="list.php">list.php</a></td><td align="right">16-May-2013 22:01  </td><td align="right">283 </td><td>&nbsp;</td></tr>
+<tr><th colspan="5"><hr></th></tr>
+</table>
+<address>Apache/2.2.14 (Ubuntu) Server at localhost Port 80</address>
+</body></html>

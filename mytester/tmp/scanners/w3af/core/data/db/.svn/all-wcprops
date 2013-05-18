@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/core/data/db
+END
+temp_persist.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/core/data/db/temp_persist.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/core/data/db/__init__.py
+END
+history.py
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/core/data/db/history.py
+END
+db.py
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/core/data/db/db.py
+END

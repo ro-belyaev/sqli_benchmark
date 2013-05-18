@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/discovery/oHalberd/Halberd
+END
+conflib.py
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/discovery/oHalberd/Halberd/conflib.py
+END
+util.py
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/discovery/oHalberd/Halberd/util.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/discovery/oHalberd/Halberd/__init__.py
+END
+logger.py
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/discovery/oHalberd/Halberd/logger.py
+END
+crew.py
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/discovery/oHalberd/Halberd/crew.py
+END
+reportlib.py
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/discovery/oHalberd/Halberd/reportlib.py
+END
+clientlib.py
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/discovery/oHalberd/Halberd/clientlib.py
+END
+version.py
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/discovery/oHalberd/Halberd/version.py
+END
+ScanTask.py
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/discovery/oHalberd/Halberd/ScanTask.py
+END
+shell.py
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/discovery/oHalberd/Halberd/shell.py
+END

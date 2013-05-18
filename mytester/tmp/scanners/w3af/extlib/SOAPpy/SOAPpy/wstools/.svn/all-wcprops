@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/extlib/SOAPpy/SOAPpy/wstools
+END
+UserTuple.py
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/extlib/SOAPpy/SOAPpy/wstools/UserTuple.py
+END
+WSDLTools.py
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/extlib/SOAPpy/SOAPpy/wstools/WSDLTools.py
+END
+Namespaces.py
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/extlib/SOAPpy/SOAPpy/wstools/Namespaces.py
+END
+TimeoutSocket.py
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/extlib/SOAPpy/SOAPpy/wstools/TimeoutSocket.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/extlib/SOAPpy/SOAPpy/wstools/__init__.py
+END
+XMLSchema.py
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/extlib/SOAPpy/SOAPpy/wstools/XMLSchema.py
+END
+XMLname.py
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/extlib/SOAPpy/SOAPpy/wstools/XMLname.py
+END
+Utility.py
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/extlib/SOAPpy/SOAPpy/wstools/Utility.py
+END
+c14n.py
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/extlib/SOAPpy/SOAPpy/wstools/c14n.py
+END
+logging.py
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/extlib/SOAPpy/SOAPpy/wstools/logging.py
+END

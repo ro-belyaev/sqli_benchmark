@@ -1,0 +1,98 @@
+8
+
+dir
+3968
+https://w3af.svn.sourceforge.net/svnroot/w3af/tags/1.0-rc5/readme/EN
+https://w3af.svn.sourceforge.net/svnroot/w3af
+
+
+
+2011-01-14T19:50:37.150359Z
+3899
+andresriancho
+has-props
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+16c29cf1-982c-0410-8ff8-8bb040e68b5b
+
+w3af-users-guide.odt
+file
+
+
+
+
+2011-01-18T17:38:39.000000Z
+922efd79f446d0e82eaf25a22852adca
+2011-01-14T19:50:37.150359Z
+3899
+andresriancho
+has-props
+
+w3af-users-guide.pdf
+file
+
+
+
+
+2011-01-18T17:38:39.000000Z
+82901b880566c3d6d4160bd9ab83f8bf
+2011-01-14T19:50:37.150359Z
+3899
+andresriancho
+has-props
+
+gtkui-graphs
+dir
+
+gtkUiHTML
+dir
+
+gtkUiUsersGuide.odt
+file
+
+
+
+
+2011-01-18T17:38:39.000000Z
+f17c64899e11657e7ad034951ea003fb
+2009-01-12T12:40:09.249346Z
+2317
+andresriancho
+has-props
+
+w3af-users-guide_html_m51b850c5.png
+file
+
+
+
+
+2011-01-18T17:38:39.000000Z
+8f53c7069d3e5b8280924297901c9dfe
+2010-10-26T12:31:00.280816Z
+3644
+andresriancho
+has-props
+
+w3af-users-guide.html
+file
+
+
+
+
+2011-01-18T17:38:39.000000Z
+7067e15e9824dfae37a1dedf115c96bf
+2011-01-14T19:50:37.150359Z
+3899
+andresriancho
+

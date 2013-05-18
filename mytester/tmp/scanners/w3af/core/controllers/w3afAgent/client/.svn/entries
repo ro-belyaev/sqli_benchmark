@@ -1,0 +1,54 @@
+8
+
+dir
+3968
+https://w3af.svn.sourceforge.net/svnroot/w3af/tags/1.0-rc5/core/controllers/w3afAgent/client
+https://w3af.svn.sourceforge.net/svnroot/w3af
+
+
+
+2010-10-28T17:30:30.019426Z
+3653
+floydfuh
+has-props
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+16c29cf1-982c-0410-8ff8-8bb040e68b5b
+
+w3afAgentClient.py
+file
+
+
+
+
+2011-01-18T17:38:23.000000Z
+69caf2e0ac57a2ca3b61ad1c96ad4801
+2010-10-28T17:30:30.019426Z
+3653
+floydfuh
+has-props
+
+__init__.py
+file
+
+
+
+
+2011-01-18T17:38:23.000000Z
+d41d8cd98f00b204e9800998ecf8427e
+2007-10-01T02:11:52.696649Z
+266
+andresriancho
+has-props
+

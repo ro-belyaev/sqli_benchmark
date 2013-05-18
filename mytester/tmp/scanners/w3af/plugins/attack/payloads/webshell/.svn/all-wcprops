@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/attack/payloads/webshell
+END
+webshell.aspx
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/attack/payloads/webshell/webshell.aspx
+END
+webshell.pl
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/attack/payloads/webshell/webshell.pl
+END
+webshell.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/attack/payloads/webshell/webshell.jsp
+END
+webshell.asp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/attack/payloads/webshell/webshell.asp
+END
+webshell.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/attack/payloads/webshell/webshell.php
+END
+webshell.py
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/attack/payloads/webshell/webshell.py
+END

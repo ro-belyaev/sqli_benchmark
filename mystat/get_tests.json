@@ -1,0 +1,265 @@
+{
+    "data": "Полное тестовое покрытие",
+    "attr": {"id": "all-tests-mf"},
+    "state": "open",
+    "children": [
+        {
+            "data": "часть HTTP-запроса, от которой зависит SQL-запрос",
+            "attr": {"class": "at-least-one"},
+            "children": [
+                {"data": "URL(фрагмента)",
+                 "attr": {"id": "HTTP-request-URL"}},
+                {"data": "имя GET-параметра",
+                 "attr": {"id": "HTTP-request-GET_name"}},
+                {"data": "значение GET-параметра",
+                 "attr": {"id": "HTTP-request-GET_val"}},
+                {"data": "имя POST-параметра",
+                 "attr": {"id": "HTTP-request-POST_name"}},
+                {"data": "значение POST-параметра",
+                 "attr": {"id": "HTTP-request-POST_val"}},
+                {"data": "имя cookie",
+                 "attr": {"id": "HTTP-request-cookie_name"}},
+                {"data": "значение cookie",
+                 "attr": {"id": "HTTP-request-cookie_val"}},
+                {"data": "имя заголовка",
+                 "attr": {"id": "HTTP-request-header_name"}},
+                {"data": "значение заголовка",
+                 "attr": {"id": "HTTP-request-header_val"}}
+            ]
+        },
+        {
+            "data": "ограничение параметра по длине",
+            "attr": {"class": "at-least-one"},
+            "children": [
+                {"data": "параметр ограничен по длине",
+                 "attr": {"id": "length-restrict"}},
+                {"data": "параметр не ограничен по длине",
+                 "attr": {"id": "length-notrestrict"}}
+            ]
+        },
+        {
+            "data": "подход к обработке входных данных",
+            "attr": {"class": "at-least-one"},
+            "children": [
+                {"data": "корректная обработка входных данных (уязвимости нет)",
+                 "attr": {"id": "handling-correct"}},
+                {
+                    "data": "некорректная обработка входных данных",
+                    "children": [
+                        {"data": "некорректное использование встроенной функции mysql_real_escape_string",
+                         "attr": {"id": "handling-mysql_real_escape_string"}},
+                        {
+                            "data": "некорректное использование подхода 'экранирование'",
+                            "children": [
+                                {"data": "экранирование одинарных кавычек",
+                                 "attr": {"id": "handling-escape_single_quote"}},
+                                {"data": "экранирование двойных кавычек",
+                                 "attr": {"id": "handling-escape_double_quote"}},
+                                {"data": "экранирование слешей",
+                                 "attr": {"id": "handling-escape_slash"}}
+                            ]
+                        },
+                        {
+                            "data": "некорректное использование подхода 'удаление'",
+                            "children": [
+                                {"data": "удаление одинарных кавычек",
+                                 "attr": {"id": "handling-delete_single_quote"}},
+                                {"data": "удаление двойных кавычек",
+                                 "attr": {"id": "handling-delete_double_quote"}},
+                                {"data": "удаление слешей",
+                                 "attr": {"id": "handling-delete_slash"}},
+                                {"data": "удаление SQL-комментариев",
+                                 "attr": {"id": "handling-delete_SQL_comment"}},
+                                {"data": "удаление ключевых слов SQL",
+                                 "attr": {"id": "handling-delete_SQL_keyword"}},
+                                {"data": "удаление разделителей SQL",
+                                 "attr": {"id": "handling-delete_SQL_separator"}}
+                            ]
+                        },
+                        {
+                            "data": "некорректное использование подхода 'проверка'",
+                            "children": [
+                                {"data": "поиск одинарных кавычек",
+                                 "attr": {"id": "handling-check_single_quoate"}},
+                                {"data": "поиск двойных кавычек",
+                                    "attr": {"id": "handling-check_double_quote"}},
+                                {"data": "поиск слешей",
+                                 "attr": {"id": "handling-check_slash"}},
+                                {"data": "поиск SQL-комментариев",
+                                 "attr": {"id": "handling-check_SQL_comment"}},
+                                {"data": "поиск ключевых слов SQL",
+                                 "attr": {"id": "handling-check_SQL_keyword"}},
+                                {"data": "поиск разделителей SQL",
+                                 "attr": {"id": "handling-check_SQL_separator"}}
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "data": "точка SQL-запроса, в которой используются входные данные",
+            "attr": {"class": "at-least-one"},
+            "children":[
+                {
+                    "data": "внедрение в SQL-запрос после ключевого слова SELECT",
+                    "attr": {"class": "depend-dep1-dep2-dep3"},
+                    "children": [
+                        {"data": "имя столбца используется внутри обратных кавычек",
+                         "attr": {"id": "SELECT-name_in_backticks", "class": "dep1"}},
+                        {"data": "имя столбца используется без обратных кавычек",
+                         "attr": {"id": "SELECT-name_not_in_backticks", "class": "dep1"}},
+                        {"data": "во входных данных удаляются пробелы",
+                         "attr": {"id": "SELECT-delete_space", "class": "dep2"}},
+                        {"data": "во входных данных не удаляются пробелы",
+                         "attr": {"id": "SELECT-not_delete_space", "class": "dep2"}},
+                        {"data": "имя столбца используется внутри двойных скобок",
+                         "attr": {"id": "SELECT-name_in_double_bracket", "class": "dep3"}},
+                        {"data": "имя столбца используется внутри одинарных скобок",
+                         "attr": {"id": "SELECT-name_in_single_bracket", "class": "dep3"}},
+                        {"data": "имя столбца используется без скобок",
+                         "attr": {"id": "SELECT-name_not_in_bracket", "class": "dep3"}}
+                    ]
+                },
+                {
+                    "data": "внедрение в SQL-запрос после ключевого слова WHERE",
+                    "attr": {"class": "depend-dep4-dep5-dep6-dep7-dep8-dep9-dep10"},
+                    "children": [
+                        {"data": "тип внедряемого значения - число",
+                         "attr": {"id": "WHERE-value_number ???", "class": "dep4"}},
+                        {"data": "тип внедряемого значения - строка",
+                         "attr": {"id": "WHERE-value_string", "class": "dep4"}},
+                        {"data": "внедряемое значение используется внутри одинарных кавычек",
+                         "attr": {"id": "WHERE-value_in_singele_quote", "class": "dep5"}},
+                        {"data": "внедряемое значение испольщуется внутри двойных кавычек",
+                         "attr": {"id": "WHERE-value_in_double_quote", "class": "dep5"}},
+                        {"data": "внедряемое значение используется без кавычек",
+                         "attr": {"id": "WHERE-value_not_in_quote", "class": "dep5"}},
+                        {"data": "внедряемое значение используется внутри двойных скобок",
+                         "attr": {"id": "WHERE-value_in_double_bracket", "class": "dep6"}},
+                        {"data": "внедряемое значение используется внутри одинарных скобок",
+                         "attr": {"id": "WHERE-value_in_single_bracket", "class": "dep6"}},
+                        {"data": "внедряемое значение используется без скобок",
+                         "attr": {"id": "WHERE-value_not_in_bracket", "class": "dep6"}},
+                        {"data": "внедряемое значение используется с префиксом '0 and'",
+                         "attr": {"id": "WHERE-value_prefix_0", "class": "dep7"}},
+                        {"data": "внедряемое значение используется с префиксом '1 or'",
+                         "attr": {"id": "WHERE-value_prefix_1", "class": "dep7"}},
+                        {"data": "внедряемое значение испольщуется без префикса",
+                         "attr": {"id": "WHERE-value_not_prefix", "class": "dep7"}},
+                        {"data": "внедряемое значение используется с постфиксом ' and 0'",
+                         "attr": {"id": "WHERE-value_postfix_0", "class": "dep8"}},
+                        {"data": "внедряемое значение используется с постфиксом ' or 1'",
+                         "attr": {"id": "WHERE-value_postfix_1", "class": "dep8"}},
+                        {"data": "внедряемое значение используется без постфикса",
+                         "attr": {"id": "WHERE-value_not_postfix", "class": "dep8"}},
+                        {"data": "от внедряемого значения берётся абсолютное значение / во внедряемом значении удаляются пробелы ???",
+                         "attr": {"id": "WHERE-value_abs_concat", "class": "dep9"}},
+                        {"data": "от внедряемого значения не берётся абсолютное значение / во внедряемом значении не удаляются пробелы ???",
+                         "attr": {"id": "WHERE-value_not_abs_concat", "class": "dep9"}},
+                        {"data": "выборка пустая ???",
+                         "attr": {"id": "WHERE-empty_result", "class": "dep10"}},
+                        {"data": "выборка непустая ???",
+                         "attr": {"id": "WHERE-not_empty_result", "class": "dep10"}}
+                    ]
+                },
+                {
+                    "data": "внедрение в SQL-запрос после ключевого слова ORDER BY",
+                    "children": [
+                        {
+                            "data": "тип входных данных - число ???",
+                            "children": [
+                                {"data": "выборка - все возможные кортежи ???",
+                                 "attr": {"id": "ORDER-BY-NUM-all"}},
+                                {"data": "выборка - один кортеж ???",
+                                 "attr": {"id": "ORDER-BY-NUM-one"}},
+                                {"data": "выборка - первый кортеж в таблице ???",
+                                 "attr": {"id": "ORDER-BY-NUM-first"}}
+                            ]
+                        },{
+                            "data": "тип входных данных - строка ???",
+                            "attr": {"class": "depend-dep11-dep12"},
+                            "children": [
+                                {"data": "выборка - все возможные кортежи ???",
+                                 "attr": {"id": "ORDER-BY-NAME-all", "class": "dep11"}},
+                                {"data": "выборка - один кортеж ???",
+                                 "attr": {"id": "ORDER-BY-NAME-one", "class": "dep11"}},
+                                {"data": "выборка - первый кортеж в таблице ???",
+                                 "attr": {"id": "ORDER-BY-NAME-first", "class": "dep11"}},
+                                {"data": "внедряемое значение используется внутри обратных кавычек",
+                                 "attr": {"id": "ORDER-BY-NAME-in_backticks", "class": "dep12"}},
+                                {"data": "внедряемое значение используется без обратных кавычек",
+                                 "attr": {"id": "ORDER-BY-NAME-not_in_backticks", "class": "dep12"}}
+                            ]
+                        },{
+                            "data": "внедряемое значение - число, которое используется в выражении ???",
+                            "attr": {"class": "depend-dep13-dep14-dep15"},
+                            "children": [
+                                {"data": "выборка - все возможные кортежи ???",
+                                 "attr": {"id": "ORDER-BY-EXPR-all", "class": "dep13"}},
+                                {"data": "выборка - один кортеж ???",
+                                 "attr": {"id": "ORDER-BY-EXPR-one", "class": "dep13"}},
+                                {"data": "выборка - первый кортеж в таблице ???",
+                                 "attr": {"id": "ORDER-BY-EXPR-first", "class": "dep13"}},
+                                {"data": "внедряемое значение используется внутри двойных скобок",
+                                 "attr": {"id": "ORDER-BY-EXPR-in_double_bracket", "class": "dep14"}},
+                                {"data": "внедряемое значение используется внутри одинарных скобок",
+                                 "attr": {"id": "ORDER-BY-EXPR-in_single_bracket", "class": "dep14"}},
+                                {"data": "внедряемое значение используется без скобок",
+                                 "attr": {"id": "ORDER-BY-EXPR-not_in_bracket", "class": "dep14"}},
+                                {"data": "от входного значения берётся абсолютное значение ~~~",
+                                 "attr": {"id": "ORDER-BY-EXPR-value_abs_concat", "class": "dep15"}},
+                                {"data": "от входного значения не берётся абсолютное значение ~~~",
+                                 "attr": {"id": "ORDER-BY-EXPR-value_not_abs_concat", "class": "dep15"}}
+                            ]
+                        },
+                        {
+                            "data": "внедряемое значение - строка, которая сортирует кортежи в выборке",
+                            "children": [
+                                {"data": "выборка - все возможные кортежи ???",
+                                 "attr": {"id": "ORDER-BY-WAY-all"}},
+                                {"data": "выборка - один кортеж ???",
+                                 "attr": {"id": "ORDER-BY-WAY-one"}},
+                                {"data": "выборка - первый кортеж в таблице ???",
+                                 "attr": {"id": "ORDER-BY-WAY-first"}}
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "data": "часть HTTP-ответа, зависящая от результата SQL-запроса",
+            "children": [
+                {"data": "код ответа",
+                 "attr": {"id": "HTTP-response-code"}},
+                {"data": "заголовки ответа",
+                 "attr": {"id": "HTTP-response-header"}},
+                {"data": "тело ответа - текст внутри разметки (например, содержимое тега <p></p>)",
+                 "attr": {"id": "HTTP-response-text_in_tags"}},
+                {"data": "тело ответа - сама разметка (т.е. меняется структура документа)",
+                 "attr": {"id": "HTTP-response-tags"}},
+                {"data": "тело ответа - DOM-документа после обработки javascript'а (т.е. структура загружаемого документа всегда одинакова, а меняется только после обработки javascript-обработчиков событий, например, onload)",
+                 "attr": {"id": "HTTP-response-DOM"}}
+            ]
+        },
+        {
+            "data": "стабильность HTTP-ответа",
+            "attr": {"class": "at-least-one"},
+            "children": [
+                {"data": "тело HTTP-ответа стабильно (т.е. при одинаковых GET-запросах возвращается одно и то же тело HTTP-ответа)",
+                 "attr": {"id": "HTTP-stability-stable"}},
+                {
+                    "data": "тело HTTP-ответа нестабильно (т.е. при одинаковых GET-запросах возвращаются разные тела HTTP-ответа)",
+                    "children": [
+                        {"data": "разница проявляется в тексте внутри тега, например: <p>текущая дата</p>",
+                         "attr": {"id": "HTTP-stability-text_in_tags"}},
+                        {"data": "разница проявляется в структуре документа (вместо одного большого баннера, представленного тегом <img>, будут наблюдаться три баннера поменьше, представленные тегами <img>)",
+                         "attr": {"id": "HTTP-stability-structure"}}
+
+                    ]
+                }
+            ]
+        }
+    ]
+}

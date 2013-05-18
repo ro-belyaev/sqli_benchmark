@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/extlib/ntlm
+END
+U32.py
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/extlib/ntlm/U32.py
+END
+ntlm.py
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/extlib/ntlm/ntlm.py
+END
+des.py
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/extlib/ntlm/des.py
+END
+des_c.py
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/extlib/ntlm/des_c.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/extlib/ntlm/__init__.py
+END
+des_data.py
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/extlib/ntlm/des_data.py
+END

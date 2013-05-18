@@ -1,0 +1,215 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/grep
+END
+strangeHTTPCode.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/grep/strangeHTTPCode.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/grep/__init__.py
+END
+collectCookies.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/grep/collectCookies.py
+END
+ssn.py
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/grep/ssn.py
+END
+privateIP.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/grep/privateIP.py
+END
+oracle.py
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/grep/oracle.py
+END
+metaTags.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/grep/metaTags.py
+END
+getMails.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/grep/getMails.py
+END
+errorPages.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/grep/errorPages.py
+END
+domXss.py
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/grep/domXss.py
+END
+error500.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/grep/error500.py
+END
+wsdlGreper.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/grep/wsdlGreper.py
+END
+httpInBody.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/grep/httpInBody.py
+END
+formAutocomplete.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/grep/formAutocomplete.py
+END
+feeds.py
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/grep/feeds.py
+END
+motw.py
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/grep/motw.py
+END
+creditCards.py
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/grep/creditCards.py
+END
+svnUsers.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/grep/svnUsers.py
+END
+pathDisclosure.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/grep/pathDisclosure.py
+END
+objects.py
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/grep/objects.py
+END
+httpAuthDetect.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/grep/httpAuthDetect.py
+END
+directoryIndexing.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/grep/directoryIndexing.py
+END
+strangeHeaders.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/grep/strangeHeaders.py
+END
+blankBody.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/grep/blankBody.py
+END
+codeDisclosure.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/grep/codeDisclosure.py
+END
+dotNetEventValidation.py
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/grep/dotNetEventValidation.py
+END
+strangeReason.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/grep/strangeReason.py
+END
+passwordProfiling.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/grep/passwordProfiling.py
+END
+lang.py
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/grep/lang.py
+END
+ajax.py
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/grep/ajax.py
+END
+fileUpload.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/grep/fileUpload.py
+END
+hashFind.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/grep/hashFind.py
+END
+findComments.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/grep/findComments.py
+END
+user_defined_regex.py
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/grep/user_defined_regex.py
+END
+strangeParameters.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/grep/strangeParameters.py
+END

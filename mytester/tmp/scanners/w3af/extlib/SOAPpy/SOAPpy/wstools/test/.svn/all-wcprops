@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/extlib/SOAPpy/SOAPpy/wstools/test
+END
+test_wsdl.py
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/extlib/SOAPpy/SOAPpy/wstools/test/test_wsdl.py
+END
+test_wstools.py
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/extlib/SOAPpy/SOAPpy/wstools/test/test_wstools.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/extlib/SOAPpy/SOAPpy/wstools/test/__init__.py
+END
+test_wstools_net.py
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/extlib/SOAPpy/SOAPpy/wstools/test/test_wstools_net.py
+END
+test_t1.py
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/extlib/SOAPpy/SOAPpy/wstools/test/test_t1.py
+END

@@ -1,0 +1,40 @@
+8
+
+dir
+3968
+https://w3af.svn.sourceforge.net/svnroot/w3af/tags/1.0-rc5/plugins/discovery/ghdb
+https://w3af.svn.sourceforge.net/svnroot/w3af
+
+
+
+2008-01-02T16:22:36.425216Z
+445
+facundobatista
+has-props
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+16c29cf1-982c-0410-8ff8-8bb040e68b5b
+
+GHDB.xml
+file
+
+
+
+
+2011-01-18T17:38:01.000000Z
+09860da056cdf75cba07881c968546ab
+2007-12-22T02:30:33.836509Z
+408
+andresriancho
+

@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/core/controllers/basePlugin
+END
+basePlugin.py
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/core/controllers/basePlugin/basePlugin.py
+END
+baseBruteforcePlugin.py
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/core/controllers/basePlugin/baseBruteforcePlugin.py
+END
+baseOutputPlugin.py
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/core/controllers/basePlugin/baseOutputPlugin.py
+END
+baseManglePlugin.py
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/core/controllers/basePlugin/baseManglePlugin.py
+END
+baseEvasionPlugin.py
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/core/controllers/basePlugin/baseEvasionPlugin.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/core/controllers/basePlugin/__init__.py
+END
+baseAuditPlugin.py
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/core/controllers/basePlugin/baseAuditPlugin.py
+END
+baseAttackPlugin.py
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/core/controllers/basePlugin/baseAttackPlugin.py
+END
+baseDiscoveryPlugin.py
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/core/controllers/basePlugin/baseDiscoveryPlugin.py
+END
+baseGrepPlugin.py
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/core/controllers/basePlugin/baseGrepPlugin.py
+END

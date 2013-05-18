@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/core/controllers/coreHelpers
+END
+fingerprint_404.py
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/core/controllers/coreHelpers/fingerprint_404.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/core/controllers/coreHelpers/__init__.py
+END
+export.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/core/controllers/coreHelpers/export.py
+END
+progress.py
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/core/controllers/coreHelpers/progress.py
+END

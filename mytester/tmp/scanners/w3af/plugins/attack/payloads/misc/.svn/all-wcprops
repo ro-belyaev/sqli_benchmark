@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/attack/payloads/misc
+END
+file_crawler.py
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/attack/payloads/misc/file_crawler.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/attack/payloads/misc/__init__.py
+END
+get_files.py
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/plugins/attack/payloads/misc/get_files.py
+END

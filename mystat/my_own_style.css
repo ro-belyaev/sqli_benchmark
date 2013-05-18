@@ -1,0 +1,61 @@
+.description {
+    margin-top: 18%;
+    padding-left: 5.801104972%;
+    /*to ask why margin-left doesn't work but margin-top works well?*/
+    max-width: 470px;
+    min-width: 370px;
+}
+
+.registration-form{
+    padding-top: 12%;
+    padding-left: 12%;
+    min-width: 370px;
+    max-width: 400px;
+}
+
+#login button {
+    float: right;
+}
+
+.brand {
+    margin-top: 10px;
+}
+
+.navbar-inner {
+    height: 80px;
+    background: #0000CC;
+}
+
+
+form.navbar-form label {
+    color: #FFFFFF;
+}
+
+form.navbar-form input.btn {
+    margin-top: 29px;
+}
+
+form.navbar-form a {
+    display: block;
+    width: 100px;
+    margin: 5px 0;
+    color: white;
+}
+
+.navbar-password {
+    float: left;
+    margin-left: 15px;
+}
+
+.buttonon {
+    background: #DFD4D4;
+}
+
+.buttonoff {
+    background: white;
+}
+
+#custom-classes a {
+    cursor: hand;
+    cursor: pointer;
+}

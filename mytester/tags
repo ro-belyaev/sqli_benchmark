@@ -1,0 +1,201 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ScanRes	scanner.php	/^class ScanRes {$/;"	c
+Scanner	scanner.php	/^abstract class Scanner {$/;"	c
+Scanner_arachni_0_3	scanner.php	/^class Scanner_arachni_0_3 extends Scanner {$/;"	c
+Scanner_bsqlbf2	scanner.php	/^class Scanner_bsqlbf2 extends Scanner {$/;"	c
+Scanner_skipfish_1_81b	scanner.php	/^class Scanner_skipfish_1_81b extends Scanner {$/;"	c
+Scanner_skipfish_2_03b	scanner.php	/^class Scanner_skipfish_2_03b extends Scanner_skipfish_1_81b {$/;"	c
+Scanner_skipfish_2_06b	scanner.php	/^class Scanner_skipfish_2_06b extends Scanner_skipfish_2_03b {$/;"	c
+Scanner_sqlmap_0_8	scanner.php	/^class Scanner_sqlmap_0_8 extends Scanner {$/;"	c
+Scanner_sqlmap_0_9	scanner.php	/^class Scanner_sqlmap_0_9 extends Scanner {$/;"	c
+Scanner_sqlmap_r4365	scanner.php	/^class Scanner_sqlmap_r4365 extends Scanner {$/;"	c
+Scanner_sqlmapdev	scanner.php	/^class Scanner_sqlmapdev extends Scanner {$/;"	c
+Scanner_unmanaged	scanner.php	/^class Scanner_unmanaged extends Scanner {$/;"	c
+Scanner_w3af_1_0_rc5	scanner.php	/^class Scanner_w3af_1_0_rc5 extends Scanner {$/;"	c
+Scanner_w3af_1_0_stable	scanner.php	/^class Scanner_w3af_1_0_stable extends Scanner {$/;"	c
+Scanner_w3af_1_1	scanner.php	/^class Scanner_w3af_1_1 extends Scanner_w3af_1_0_stable {$/;"	c
+Scanner_wapiti_2_2_1	scanner.php	/^class Scanner_wapiti_2_2_1 extends Scanner {$/;"	c
+TestExc	exceptions.php	/^class TestExc extends Exception {$/;"	c
+TestPage	testpage.php	/^class TestPage {$/;"	c
+TestRes	testres.php	/^class TestRes {$/;"	c
+Tester	tester.php	/^class Tester {$/;"	c
+ZeroScanner	scanner.php	/^class ZeroScanner extends Scanner {$/;"	c
+__construct	exceptions.php	/^    public function __construct($s = "nomsg") {$/;"	f
+__construct	scanner.php	/^    public function __construct($fn, $name = null) {$/;"	f
+__construct	scanner.php	/^    public function __construct($l5r3 = false) {$/;"	f
+__construct	scanner.php	/^    public function __construct($log, $state, $ans, $realtime, $usertime, $systime, $cmd) {$/;"	f
+__construct	tester.php	/^    public function __construct(Scanner $sc, TestPage $tp) {$/;"	f
+__construct	testpage.php	/^    public function __construct($url, $name, $managed, $noclean = false) {$/;"	f
+__construct	testres.php	/^    public function __construct($testlog, $testname, $testurl, $scanlog, $scanstate, $scanans, $realtime, $usertime, $systime, $scancmd) {$/;"	f
+a	mytests.php	/^    $a = array();$/;"	v
+a	realtests.php	/^    $a = array();$/;"	v
+ans	scanner.php	/^        $this->ans = $ans;$/;"	v
+arg	unmanaged.php	/^$arg = @$argv[2];$/;"	v
+batch	tester.php	/^    $batch = array();$/;"	v
+bi	tester.php	/^        $bi = $blinks[$w]["bi"];$/;"	v
+bi	tester.php	/^    $bi = 0;$/;"	v
+blinks	tester.php	/^    $blinks = array();$/;"	v
+c	scanner.php	/^        $c = 0;$/;"	v
+ch	getans.php	/^    $ch = curl_init();$/;"	v
+clean	scanner.php	/^    public function clean() {$/;"	f
+cmd	scanner.php	/^        $cmd = "cd $this->dir;  perl bsqlbf-v2-6.pl -url " . escapeshellarg($url) ." -database 1 -sql 'crc32(1)' -type $mode  -blind '$par' 2>&1 || echo mybencherr";$/;"	v
+cmd	scanner.php	/^        $cmd = "cd $this->dir;  python .\/wapiti.py " . escapeshellarg($folder) . " -s " . escapeshellarg($url) . " --scope folder  -m '-all,sql,blindsql' 2>&1 || echo mybencherr";$/;"	v
+cmd	scanner.php	/^        $cmd = "cd $this->dir; .\/arachni --report=xml:outfile=mbreport.xml --report=stdout --audit-links --mods=sqli,sqli_blind_timing,sqli_blind_rdiff --http-req-limit=1 " . escapeshellarg($url)  . " || echo mybencherr";$/;"	v
+cmd	scanner.php	/^        $cmd = "cd $this->dir; .\/skipfish -o o13 -g 1 -t 60 -w 60 -i 60  -Y -L  -u -W dictionaries\/empty.wl -I " . escapeshellarg($match) . " " . escapeshellarg($url) . " 2>&1 || echo mybencherr";$/;"	v
+cmd	scanner.php	/^        $cmd = "cd $this->dir; .\/skipfish -o o13 -g 1 -t 60 -w 60 -i 60  -Y -L -V  -u -W dictionaries\/empty.wl -I " . escapeshellarg($match) . " " . escapeshellarg($url) . " 2>&1 || echo mybencherr";$/;"	v
+cmd	scanner.php	/^        $cmd = "cd $this->dir; .\/sqlmap.py $e --batch -u " . escapeshellarg($url) . " 2>&1 || echo mybencherr";$/;"	v
+cmd	scanner.php	/^        $cmd = "cd $this->dir; .\/sqlmap.py --batch -u " . escapeshellarg($url) . " 2>&1 || echo mybencherr";$/;"	v
+cmd	scanner.php	/^        $cmd = "cd $this->dir; .\/w3af_console -s scr.txt 2>&1 || echo mybencherr";$/;"	v
+cmd	scanner.php	/^        $cmd = "cd $this->dir; HOME=`pwd` .\/w3af_console -n -s scr.txt 2>&1 || echo mybencherr";$/;"	v
+cmd	scanner.php	/^        $cmd = "cp -R `pwd`\/tmp\/scanners\/w3af-1.0-stable\/* $this->dir\/ 2>&1 && echo ok";$/;"	v
+cmd	scanner.php	/^        $cmd = "cp -R `pwd`\/tmp\/scanners\/w3af-1.1\/* $this->dir\/ 2>&1 && echo ok";$/;"	v
+cmd	scanner.php	/^        $cmd = "cp -R tmp\/scanners\/arachni-v0.3-cde\/* $this->dir\/ 2>&1 && echo ok";$/;"	v
+cmd	scanner.php	/^        $cmd = "cp -R tmp\/scanners\/bsqlbf2\/* $this->dir\/ 2>&1 && echo ok";$/;"	v
+cmd	scanner.php	/^        $cmd = "cp -R tmp\/scanners\/skipfish-1.81b\/* $this->dir\/ 2>&1 && echo ok";$/;"	v
+cmd	scanner.php	/^        $cmd = "cp -R tmp\/scanners\/skipfish-2.03b\/* $this->dir\/ 2>&1 && echo ok";$/;"	v
+cmd	scanner.php	/^        $cmd = "cp -R tmp\/scanners\/skipfish-2.06b\/* $this->dir\/ 2>&1 && echo ok";$/;"	v
+cmd	scanner.php	/^        $cmd = "cp -R tmp\/scanners\/sqlmap-0.8\/* $this->dir\/ 2>&1 && echo ok";$/;"	v
+cmd	scanner.php	/^        $cmd = "cp -R tmp\/scanners\/sqlmap-0.9\/* $this->dir\/ 2>&1 && echo ok";$/;"	v
+cmd	scanner.php	/^        $cmd = "cp -R tmp\/scanners\/sqlmap-dev\/* $this->dir\/ 2>&1 && echo ok";$/;"	v
+cmd	scanner.php	/^        $cmd = "cp -R tmp\/scanners\/sqlmap-r4365\/* $this->dir\/ 2>&1 && echo ok";$/;"	v
+cmd	scanner.php	/^        $cmd = "cp -R tmp\/scanners\/w3af-1.0-rc5\/* $this->dir\/ 2>&1 && echo ok";$/;"	v
+cmd	scanner.php	/^        $cmd = "cp -R tmp\/scanners\/wapiti-2.2.1\/src\/* $this->dir\/ 2>&1 && echo ok";$/;"	v
+cmd	scanner.php	/^        $cmd = "rm -Rf $this->dir 2>&1 && echo ok";$/;"	v
+cmd	scanner.php	/^        $this->cmd = $cmd;$/;"	v
+cmd	tester.php	/^    $cmd = "touch tmp\/tmp && rm -Rf tmp\/* && mkdir tmp\/scanners && cp -R ..\/scanners\/* tmp\/scanners\/ 2>&1 && echo ok";$/;"	v
+cmd2	scanner.php	/^            $cmd2 = "find $this->dir\/o13 -type f -name '*.js' -exec grep -l \\"'type': 50103\\" {} + 2>&1";$/;"	v
+cont	tester.php	/^        $cont = false;$/;"	v
+cont	tester.php	/^        $cont = true;$/;"	v
+dir	scanner.php	/^        $this->dir = "tmp\/s_" . $this->name() . "_" . rand(0, 10000000) . rand(0, 10000000);$/;"	v
+dir	scanner.php	/^        $this->dir = NULL;$/;"	v
+dir	scanner.php	/^    protected $dir;$/;"	v
+e	scanner.php	/^        $e = $this->l5r3 ? " --level 5 --risk 3 " : "";$/;"	v
+ex	ex.php	/^function ex($cfe)$/;"	f
+folder	scanner.php	/^        $folder = preg_replace('%[^\/]*$%', '', $url);$/;"	v
+frc	tester.php	/^            $frc = 0;$/;"	v
+getans	getans.php	/^function getans($url){$/;"	f
+getlog	testpage.php	/^    public function getlog() {$/;"	f
+ind	tester.php	/^    $ind = '';$/;"	v
+l5r3	scanner.php	/^        $this->l5r3 = $l5r3;$/;"	v
+l5r3	scanner.php	/^    public $l5r3;$/;"	v
+log	scanner.php	/^        $this->log = $log;$/;"	v
+make_seed	run1test.php	/^function make_seed()$/;"	f
+managed	testpage.php	/^        $this->managed = $managed;$/;"	v
+match	scanner.php	/^        $match = preg_replace('%=.*$%', '', $url);$/;"	v
+mins	tester.php	/^                $mins = min($mins, $b["sc"]->weight());$/;"	v
+mins	tester.php	/^            $mins = 10000000000;$/;"	v
+mkdir	scanner.php	/^    public function mkdir() {$/;"	f
+mlog	tester.php	/^function mlog($s) {$/;"	f
+mytests	mytests.php	/^function mytests($tfname, $tprefix, $noclean = false) {$/;"	f
+name	scanner.php	/^        $this->name = $name;$/;"	v
+name	scanner.php	/^    private $name;$/;"	v
+name	scanner.php	/^    public function name() {$/;"	f
+name	testpage.php	/^        $this->name = $name;$/;"	v
+noclean	testpage.php	/^        $this->noclean = $noclean;$/;"	v
+p1	tester.php	/^            $p1 = get_class($f1["sc"]) === "ZeroScanner";$/;"	v
+p2	tester.php	/^            $p2 = get_class($f2["sc"]) === "ZeroScanner";$/;"	v
+pars	scanner.php	/^        $pars = array();$/;"	v
+pid	tester.php	/^                    $pid = pcntl_fork();$/;"	v
+prebuild	testpage.php	/^    public function prebuild() {$/;"	f
+prefix	unmanaged.php	/^$prefix = "http:\/\/localhost:8070\/tests\/";$/;"	v
+prepare	scanner.php	/^    public function prepare() {$/;"	f
+prepare	testpage.php	/^    public function prepare() {$/;"	f
+preparetmp	tester.php	/^function preparetmp() {$/;"	f
+r	tester.php	/^        $r = $this->sc->run($this->tp->url);$/;"	v
+r	testpage.php	/^            $r = getans(preg_replace('%\\?.*$%', "?GETLOG", $this->url));$/;"	v
+r	testres.php	/^        $r = '<html><head><title>' . htmlspecialchars($this->testname) . '<\/title><LINK REL="StyleSheet" HREF="style.css" TYPE="text\/css"><\/head><body>';$/;"	v
+realtests	realtests.php	/^function realtests($urlfname) {$/;"	f
+realtime	scanner.php	/^        $this->realtime = $realtime;$/;"	v
+realtime	testres.php	/^        $this->realtime = $realtime;$/;"	v
+res	ex.php	/^    $res = @ob_get_contents();$/;"	v
+res	ex.php	/^    $res = @shell_exec($cfe);$/;"	v
+res	ex.php	/^    $res = join("\\n",$res);$/;"	v
+res	ex.php	/^   $res = "";$/;"	v
+res	ex.php	/^ $res = '';$/;"	v
+res	scanner.php	/^                $res = "vuln '$v' contains '$u'";$/;"	v
+res	scanner.php	/^                $res = $this->runonce($url, $mode, $par);$/;"	v
+res	scanner.php	/^        $res = count($rr) . " vulns don't contain '$u'";$/;"	v
+res	scanner.php	/^        $res = ex($cmd);$/;"	v
+res	tester.php	/^            $res = $tester->test();$/;"	v
+res	tester.php	/^        $res = $tester->test();$/;"	v
+res2	scanner.php	/^            $res2 = ex($cmd2);$/;"	v
+resd	run1test.php	/^$resd = $argv[4];$/;"	v
+resd	run_tests.php	/^    $resd = $argv[1];$/;"	v
+resd	run_tests.php	/^    $resd = null;$/;"	v
+resd	tester.php	/^        $resd = "results\/" . date("Y-m-d_H-i-s", time());$/;"	v
+resd	tester.php	/^    $resd = "results\/" . date("Y-m-d_H-i-s", time());$/;"	v
+resf	tester.php	/^            $resf = "$resd\/${ti}_" . $sc->name() . ".result";$/;"	v
+resf	tester.php	/^    $resf = "$resd\/${ti}_" . $sc->name() . ".result";$/;"	v
+rr	scanner.php	/^        $rr = explode("\\n", gzuncompress($this->vulns));$/;"	v
+run	scanner.php	/^    public function run($url) {$/;"	f
+run1test	tester.php	/^function run1test($sc, $tp, $ti, $resd) {$/;"	f
+run1test_	tester.php	/^function run1test_($sc, $tp, $ti, $resd) {$/;"	f
+runonce	scanner.php	/^    private function runonce($url, $mode, $par) {$/;"	f
+runtests	tester.php	/^function runtests($testpages, $scanners) {$/;"	f
+runtests_multi	tester.php	/^function runtests_multi(&$testpages, &$scanners, $thrc, $resd = null) {$/;"	f
+s	test.php	/^$s = new Scanner_fisobe();$/;"	v
+sc	run1test.php	/^$sc = unserialize(base64_decode($argv[1]));$/;"	v
+sc	tester.php	/^                        $sc = $b["sc"];$/;"	v
+sc	tester.php	/^        $this->sc = $sc;$/;"	v
+scanans	testres.php	/^        $this->scanans = $scanans;$/;"	v
+scancmd	testres.php	/^        $this->scancmd = $scancmd;$/;"	v
+scanlog	testres.php	/^        $this->scanlog = $scanlog;$/;"	v
+scanners	run_tests.php	/^$scanners = array($/;"	v
+scanners	unmanaged.php	/^    $scanners = array(new ZeroScanner(), new Scanner_unmanaged($arg));$/;"	v
+scanstate	testres.php	/^        $this->scanstate = $scanstate;$/;"	v
+stage	unmanaged.php	/^$stage = @$argv[1];$/;"	v
+state	scanner.php	/^        $this->state = $state;$/;"	v
+superdie	tester.php	/^function superdie($s = "nomsg") {$/;"	f
+systime	scanner.php	/^        $this->systime = $systime;$/;"	v
+systime	testres.php	/^        $this->systime = $systime;$/;"	v
+t	getans.php	/^    $t = curl_exec($ch);$/;"	v
+t	mytests.php	/^        $t = trim($t);$/;"	v
+t	realtests.php	/^        $t = trim($t);$/;"	v
+t	scanner.php	/^        $t = substr($url, $t);$/;"	v
+t	tester.php	/^    $t = '';$/;"	v
+t0	scanner.php	/^        $t0 = microtime(true);$/;"	v
+t_running	tester.php	/^    $t_running = 0;$/;"	v
+test	tester.php	/^    public function test() {$/;"	f
+tester	tester.php	/^            $tester = new Tester($sc, $tp);$/;"	v
+tester	tester.php	/^        $tester = new Tester($sc, $tp);$/;"	v
+testlocks	tester.php	/^    $testlocks = array();$/;"	v
+testlog	testres.php	/^        $this->testlog = $testlog;$/;"	v
+testname	testres.php	/^        $this->testname = $testname;$/;"	v
+testpages	run_tests.php	/^$testpages = $/;"	v
+testpages	unmanaged.php	/^    $testpages = mytests("..\/mytests\/tests\/index.txt", $prefix, false);$/;"	v
+testpages	unmanaged.php	/^    $testpages = mytests("..\/mytests\/tests\/index.txt", $prefix, true);$/;"	v
+testurl	testres.php	/^        $this->testurl = $testurl;$/;"	v
+tf	mytests.php	/^    $tf = file($tfname);$/;"	v
+tf	realtests.php	/^    $tf = file($urlfname);$/;"	v
+thf	tester.php	/^                        $thf = true;$/;"	v
+thf	tester.php	/^            $thf = false;$/;"	v
+thf	tester.php	/^        $thf = true;$/;"	v
+ti	run1test.php	/^$ti = intval($argv[3]);$/;"	v
+ti	tester.php	/^                        $ti = $b["ti"];$/;"	v
+ti	tester.php	/^        $ti = "$ti";$/;"	v
+tl	tester.php	/^                $tl = 0;$/;"	v
+tm	scanner.php	/^        $tm = microtime(true) - $t0;$/;"	v
+toHTML	testres.php	/^    public function toHTML() {$/;"	f
+tp	run1test.php	/^$tp = unserialize(base64_decode($argv[2]));$/;"	v
+tp	tester.php	/^                        $tp = $b["tp"];$/;"	v
+tp	tester.php	/^        $this->tp = $tp;$/;"	v
+tr	scanner.php	/^        $tr = 10;$/;"	v
+u	scanner.php	/^        $u = parse_url($url, PHP_URL_PATH);$/;"	v
+unman_list	tester.php	/^function unman_list(&$testpages) {$/;"	f
+unman_prepare	tester.php	/^function unman_prepare(&$testpages) {$/;"	f
+url	testpage.php	/^        $this->url = $url;$/;"	v
+usertime	scanner.php	/^        $this->usertime = $usertime;$/;"	v
+usertime	testres.php	/^        $this->usertime = $usertime;$/;"	v
+vulns	scanner.php	/^        $this->vulns = gzcompress(file_get_contents($fn));$/;"	v
+vulns	scanner.php	/^    private $vulns;$/;"	v
+w	tester.php	/^        $w = pcntl_wait($status);$/;"	v
+weight	scanner.php	/^    public function weight() {$/;"	f
+x	acunetix.php	/^$x = new SimpleXMLElement(file_get_contents($argv[1]));$/;"	v
+x	br.php	/^  $x = (unserialize(gzuncompress(file_get_contents($t))));$/;"	v
+x	burpsuite.php	/^$x = new SimpleXMLElement(file_get_contents($argv[1]));$/;"	v
+x	scanner.php	/^        $x = new SimpleXMLElement($mbrep);$/;"	v

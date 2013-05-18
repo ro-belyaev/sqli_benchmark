@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/extlib/SOAPpy/SOAPpy
+END
+Parser.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/extlib/SOAPpy/SOAPpy/Parser.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/extlib/SOAPpy/SOAPpy/__init__.py
+END
+SOAP.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/extlib/SOAPpy/SOAPpy/SOAP.py
+END
+Types.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/extlib/SOAPpy/SOAPpy/Types.py
+END
+Config.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/extlib/SOAPpy/SOAPpy/Config.py
+END
+Server.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/extlib/SOAPpy/SOAPpy/Server.py
+END
+WSDL.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/extlib/SOAPpy/SOAPpy/WSDL.py
+END
+SOAPBuilder.py
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/extlib/SOAPpy/SOAPpy/SOAPBuilder.py
+END
+GSIServer.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/extlib/SOAPpy/SOAPpy/GSIServer.py
+END
+Utilities.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/extlib/SOAPpy/SOAPpy/Utilities.py
+END
+URLopener.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/extlib/SOAPpy/SOAPpy/URLopener.py
+END
+Errors.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/extlib/SOAPpy/SOAPpy/Errors.py
+END
+Client.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/extlib/SOAPpy/SOAPpy/Client.py
+END
+NS.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/extlib/SOAPpy/SOAPpy/NS.py
+END
+version.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/w3af/!svn/ver/3967/tags/1.0-rc5/extlib/SOAPpy/SOAPpy/version.py
+END

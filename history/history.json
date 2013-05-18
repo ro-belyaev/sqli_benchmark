@@ -1,0 +1,36 @@
+{
+    "items": [
+        {
+            "id": 5,
+            "name": "первый запуск",
+            "scanners": [
+                    "wapiti",
+                    "sqlmap",
+                    "w3af",
+                    "skipfish",
+                    "acunetix"
+            ],
+            "info": {
+                "wapiti": "4:42",
+                "sqlmap": "4:30",
+                "w3af": "5:32",
+                "skipfish": "5:10",
+                "acunetix": "3:20"
+            }
+        },
+        {
+            "id": 6,
+            "name": "обнаружение методом blind, внедрение после GROUP BY",
+            "scanners": [
+                    "wapiti",
+                    "sqlmap",
+                    "acunetix"
+            ],
+            "info": {
+                "wapiti": "2:10",
+                "sqlmap": "2:23",
+                "acunetix": "1:50"
+            }
+        }
+    ]
+}

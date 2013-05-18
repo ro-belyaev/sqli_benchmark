@@ -1,0 +1,40 @@
+8
+
+dir
+3968
+https://w3af.svn.sourceforge.net/svnroot/w3af/tags/1.0-rc5/plugins/discovery/content_negotiation
+https://w3af.svn.sourceforge.net/svnroot/w3af
+
+
+
+2010-11-30T18:02:53.241034Z
+3809
+andresriancho
+has-props
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+16c29cf1-982c-0410-8ff8-8bb040e68b5b
+
+common_filenames.db
+file
+
+
+
+
+2011-01-18T17:38:01.000000Z
+c33f2a71fb47d10c5740c9d3a7cb04bd
+2009-06-03T04:02:58.593901Z
+2882
+andresriancho
+

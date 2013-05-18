@@ -1,0 +1,109 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <!--<title>generation of report</title>-->
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="my_own_style.css">
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="bootstrap.js"></script>
+    <script type="text/javascript" src="jquery.jstree.js"></script>
+    <script type="text/javascript" src="../mytests/dependenceWarning.js"></script>
+    <script type="text/javascript" src="../mytests/checkDependences.js"></script>
+    <script type="text/javascript" src="custom_tests_obj_report_generation.js"></script>
+    <script type="text/javascript" src="set_handlers_report_generation.js"></script>
+    <script type="text/javascript" src="report_generation.js"></script>
+    <style type="text/css">
+        body {
+            padding-top: 130px;
+            padding-bottom: 50px;
+            min-width: 780px;
+        }
+    </style>
+</head>
+<body>
+<div class="navbar navbar-fixed-top">
+    <div class="navbar-inner">
+        <div class="container-fluid">
+            <a class="brand" href="#"><h1>SQLi Benchmark</h1></a>
+        </div>
+    </div>
+</div>
+<div class="container-fluid">
+    <div class="row-fluid">
+        <div class="span3 well">
+            <ul class="nav nav-list">
+                <li><a href="#">История запусков</a></li>
+                <li><a href="#">Как работать со средой</a></li>
+                <li><a href="#">Обратная связь</a></li>
+            </ul>
+        </div>
+        <div class="span8">
+            <div>
+                <h1>Генерация отчёта</h1>
+            </div>
+            <div style="margin-top: 20px;">
+                <h3>Выберите из атомарных классов тестов custom-классы, по которым вы бы хотели получить статистику</h3>
+            </div>
+            <div class="modal hide" id="modal">
+                <div class="modal-header">
+                    <button class="close" data-dismiss="modal">x</button>
+                    <h3 id="header">Создание custom-класса</h3>
+                </div>
+                <div class="modal-body">
+                    <form class="form-horizontal" style="margin-top: 10px;">
+                        <div class="control-group">
+                            <label class="control-label">Имя custom-класса</label>
+                            <div class="controls">
+                                <input type="text" id="class-name">
+                            </div>
+                        </div>
+                        <label class="radio">
+                            <input type="radio" name="tests-type" id="radio1" value="vuln" checked>
+                            Проверить правильные срабатывания сканеров
+                        </label>
+                        <label class="radio">
+                            <input type="radio" name="tests-type" id="radio2" value="not-vuln">
+                            Проверить ложные срабатывания сканеров
+                        </label>
+                    </form>
+                    <h4>Выберите тесты, которые будет содержать custom-класс</h4>
+                    <div id="tests" style="margin-top: 10px;"></div>
+                </div>
+                <div class="modal-footer">
+                    <button id="add-cancel" class="btn">Отмена</button>
+                    <button id="action-add" class="btn btn-primary">Добавить custom-класс</button>
+                </div>
+            </div>
+            <div class="modal hide" id="modal-remove">
+                <div class="modal-header">
+                    <div class="close" data-dismiss="modal">x</div>
+                    <h3>Удаление custom-класса</h3>
+                </div>
+                <div class="modal-body">
+                    <h4 id="custom-class-name">Уверены, что хотите удалить custom-класс? </h4>
+                </div>
+                <div class="modal-footer">
+                    <button id="remove-cancel" class="btn">Отмена</button>
+                    <button id="remove-custom-class" class="btn btn-primary">Удалить custom-класс</button>
+                </div>
+            </div>
+            <div>
+                <div id="buttons">
+                    <button id="add" class="btn">+</button>
+                    <button id="delete" class="btn">-</button>
+                    <!--<button id="change" class="btn">change</button>-->
+                </div>
+                <hr style="background: #E0DADA; height: 1px; width: 70%;"/>
+                <ul id="custom-classes" class="nav nav-pills nav-stacked well" style="width: 65%;">
+                    <!--to ask is it bad that i use anchor to represent list of custom classes?-->
+                </ul>
+                <button id="report-button" class="btn btn-primary">Продолжить</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

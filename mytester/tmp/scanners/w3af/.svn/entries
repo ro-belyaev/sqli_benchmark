@@ -1,0 +1,78 @@
+8
+
+dir
+3968
+https://w3af.svn.sourceforge.net/svnroot/w3af/tags/1.0-rc5
+https://w3af.svn.sourceforge.net/svnroot/w3af
+
+
+
+2011-01-18T17:43:10.608162Z
+3968
+andresriancho
+has-props
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+16c29cf1-982c-0410-8ff8-8bb040e68b5b
+
+tools
+dir
+
+plugins
+dir
+
+locales
+dir
+
+w3af_console
+file
+
+
+
+
+2011-01-18T17:38:40.000000Z
+cd69ad73a32e0240e93f437a527bda68
+2010-10-21T22:49:25.752714Z
+3630
+andresriancho
+has-props
+
+profiles
+dir
+
+w3af_gui
+file
+
+
+
+
+2011-01-18T17:38:40.000000Z
+b97c6abbdf8dc9298cc8a8f18110c229
+2010-10-21T22:49:25.752714Z
+3630
+andresriancho
+has-props
+
+extlib
+dir
+
+scripts
+dir
+
+core
+dir
+
+readme
+dir
+

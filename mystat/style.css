@@ -1,0 +1,73 @@
+body {
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    background-color:#FFFFCC;
+}
+
+td {
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    white-space: nowrap; 
+}
+
+th {
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    white-space: nowrap; 
+}
+
+.reportlink {
+    background-color: pink;
+}
+
+.help {
+    font-size: 8px;
+}
+
+form {
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+input {
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+
+textarea {
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+select {
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+ul {
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    list-style-type: disc;
+    list-style-position: outside;
+}
+
+li {
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+ol {
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    list-style-type: upper-roman;
+    list-style-position: outside;
+}
+
+td{
+    padding: 3px;
+    border-width: thin;
+    border-style: solid;
+    border-color: #CCCCCC #666666 #666666 #CCCCCC;
+    
+}
